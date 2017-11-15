@@ -1,0 +1,1745 @@
+desc: (none)
+cmd: ./mechanical_drawing
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=102493558
+mem_heap_B=72704
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=102558177
+mem_heap_B=72749
+mem_heap_extra_B=43
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=102639666
+mem_heap_B=73301
+mem_heap_extra_B=59
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=102730744
+mem_heap_B=105613
+mem_heap_extra_B=99
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=102787678
+mem_heap_B=110381
+mem_heap_extra_B=139
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=102900616
+mem_heap_B=72813
+mem_heap_extra_B=99
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=102970937
+mem_heap_B=73085
+mem_heap_extra_B=187
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=103068381
+mem_heap_B=85469
+mem_heap_extra_B=235
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=103354182
+mem_heap_B=85500
+mem_heap_extra_B=244
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=103413498
+mem_heap_B=117275
+mem_heap_extra_B=5053
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=103527183
+mem_heap_B=176833
+mem_heap_extra_B=14279
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=103697003
+mem_heap_B=176833
+mem_heap_extra_B=14279
+mem_stacks_B=0
+heap_tree=detailed
+n5: 176833 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 81320 0x1DF60D45: ??? (in /usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.4)
+  n1: 81320 0x1DF6222C: asn1_array2tree (in /usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.4)
+   n1: 81320 0x1ACF80D3: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.8)
+    n1: 81320 0x1ACD6A3F: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.8)
+     n1: 81320 0x400F898: call_init.part.0 (dl-init.c:72)
+      n1: 81320 0x400F9A9: _dl_init (dl-init.c:30)
+       n0: 81320 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+ n1: 72704 0xC789224: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x400F898: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x400F9A9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+ n6: 12384 0x148A94DE: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.34.0)
+  n1: 2064 0x148A6ACE: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.34.0)
+   n1: 2064 0x148A9C5E: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.34.0)
+    n1: 2064 0x14862377: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.34.0)
+     n1: 2064 0x400F898: call_init.part.0 (dl-init.c:72)
+      n1: 2064 0x400F9A9: _dl_init (dl-init.c:30)
+       n0: 2064 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+  n1: 2064 0x148A800D: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.34.0)
+   n1: 2064 0x148A9BD4: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.34.0)
+    n1: 2064 0x14862377: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.34.0)
+     n1: 2064 0x400F898: call_init.part.0 (dl-init.c:72)
+      n1: 2064 0x400F9A9: _dl_init (dl-init.c:30)
+       n0: 2064 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+  n1: 2064 0x148AC3CE: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.34.0)
+   n1: 2064 0x148A9C0F: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.34.0)
+    n1: 2064 0x14862377: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.34.0)
+     n1: 2064 0x400F898: call_init.part.0 (dl-init.c:72)
+      n1: 2064 0x400F9A9: _dl_init (dl-init.c:30)
+       n0: 2064 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+  n1: 2064 0x148C3DEE: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.34.0)
+   n1: 2064 0x1488E0B6: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.34.0)
+    n1: 2064 0x148A9BEF: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.34.0)
+     n1: 2064 0x14862377: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.34.0)
+      n1: 2064 0x400F898: call_init.part.0 (dl-init.c:72)
+       n1: 2064 0x400F9A9: _dl_init (dl-init.c:30)
+        n0: 2064 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+  n1: 2064 0x148E564E: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.34.0)
+   n1: 2064 0x1488E0C6: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.34.0)
+    n1: 2064 0x148A9BEF: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.34.0)
+     n1: 2064 0x14862377: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.34.0)
+      n1: 2064 0x400F898: call_init.part.0 (dl-init.c:72)
+       n1: 2064 0x400F9A9: _dl_init (dl-init.c:30)
+        n0: 2064 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+  n1: 2064 0x148E5CFE: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.34.0)
+   n1: 2064 0x148A9BEF: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.34.0)
+    n1: 2064 0x14862377: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.34.0)
+     n1: 2064 0x400F898: call_init.part.0 (dl-init.c:72)
+      n1: 2064 0x400F9A9: _dl_init (dl-init.c:30)
+       n0: 2064 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+ n1: 8560 0x1DF60D57: ??? (in /usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.4)
+  n1: 8560 0x1DF6222C: asn1_array2tree (in /usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.4)
+   n1: 8560 0x1ACF80D3: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.8)
+    n1: 8560 0x1ACD6A3F: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.8)
+     n1: 8560 0x400F898: call_init.part.0 (dl-init.c:72)
+      n1: 8560 0x400F9A9: _dl_init (dl-init.c:30)
+       n0: 8560 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+ n0: 1865 in 11 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=13
+#-----------
+time=103756653
+mem_heap_B=181207
+mem_heap_extra_B=11489
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=179330929
+mem_heap_B=182247
+mem_heap_extra_B=11497
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=179446884
+mem_heap_B=182251
+mem_heap_extra_B=11517
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=179554164
+mem_heap_B=213227
+mem_heap_extra_B=13421
+mem_stacks_B=0
+heap_tree=detailed
+n6: 213227 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 93632 0x1DF60D45: ??? (in /usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.4)
+  n2: 93632 0x1DF6222C: asn1_array2tree (in /usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.4)
+   n1: 81320 0x1ACF80D3: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.8)
+    n1: 81320 0x1ACD6A3F: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.8)
+     n1: 81320 0x400F898: call_init.part.0 (dl-init.c:72)
+      n1: 81320 0x400F9A9: _dl_init (dl-init.c:30)
+       n0: 81320 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+   n1: 12312 0x1ACF81BB: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.8)
+    n1: 12312 0x1ACD6A3F: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.8)
+     n1: 12312 0x400F898: call_init.part.0 (dl-init.c:72)
+      n1: 12312 0x400F9A9: _dl_init (dl-init.c:30)
+       n0: 12312 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+ n1: 72704 0xC789224: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x400F898: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x400F9A9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+ n2: 17296 0xFDEE527: g_malloc (in /lib/x86_64-linux-gnu/libglib-2.0.so.0.5400.1)
+  n1: 16384 0xFDF8C5A: ??? (in /lib/x86_64-linux-gnu/libglib-2.0.so.0.5400.1)
+   n1: 16384 0x400F898: call_init.part.0 (dl-init.c:72)
+    n1: 16384 0x400F9A9: _dl_init (dl-init.c:30)
+     n0: 16384 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+  n0: 912 in 4 places, all below massif's threshold (1.00%)
+ n1: 12776 0xFDEE57F: g_malloc0 (in /lib/x86_64-linux-gnu/libglib-2.0.so.0.5400.1)
+  n0: 12776 in 15 places, all below massif's threshold (1.00%)
+ n1: 12384 0x148A94DE: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.34.0)
+  n0: 12384 in 6 places, all below massif's threshold (1.00%)
+ n0: 4435 in 18 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=17
+#-----------
+time=179638036
+mem_heap_B=218979
+mem_heap_extra_B=13789
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=179722371
+mem_heap_B=219163
+mem_heap_extra_B=13869
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=179812300
+mem_heap_B=221338
+mem_heap_extra_B=14534
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=181522729
+mem_heap_B=222378
+mem_heap_extra_B=14542
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=181641534
+mem_heap_B=231734
+mem_heap_extra_B=16386
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=181726022
+mem_heap_B=232822
+mem_heap_extra_B=16458
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=188820215
+mem_heap_B=232822
+mem_heap_extra_B=16458
+mem_stacks_B=0
+heap_tree=detailed
+n8: 232822 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 93632 0x1DF60D45: ??? (in /usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.4)
+  n2: 93632 0x1DF6222C: asn1_array2tree (in /usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.4)
+   n1: 81320 0x1ACF80D3: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.8)
+    n1: 81320 0x1ACD6A3F: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.8)
+     n1: 81320 0x400F898: call_init.part.0 (dl-init.c:72)
+      n1: 81320 0x400F9A9: _dl_init (dl-init.c:30)
+       n0: 81320 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+   n1: 12312 0x1ACF81BB: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.8)
+    n1: 12312 0x1ACD6A3F: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.8)
+     n1: 12312 0x400F898: call_init.part.0 (dl-init.c:72)
+      n1: 12312 0x400F9A9: _dl_init (dl-init.c:30)
+       n0: 12312 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+ n1: 72704 0xC789224: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x400F898: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x400F9A9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+ n2: 17688 0xFDEE527: g_malloc (in /lib/x86_64-linux-gnu/libglib-2.0.so.0.5400.1)
+  n1: 16384 0xFDF8C5A: ??? (in /lib/x86_64-linux-gnu/libglib-2.0.so.0.5400.1)
+   n1: 16384 0x400F898: call_init.part.0 (dl-init.c:72)
+    n1: 16384 0x400F9A9: _dl_init (dl-init.c:30)
+     n0: 16384 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+  n0: 1304 in 5 places, all below massif's threshold (1.00%)
+ n2: 14048 0xFDEE57F: g_malloc0 (in /lib/x86_64-linux-gnu/libglib-2.0.so.0.5400.1)
+  n0: 11552 in 14 places, all below massif's threshold (1.00%)
+  n1: 2496 0xFB77518: ??? (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.5400.1)
+   n1: 2496 0xFB7D7F0: g_type_register_static (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.5400.1)
+    n0: 2496 in 4 places, all below massif's threshold (1.00%)
+ n0: 13174 in 68 places, all below massif's threshold (1.00%)
+ n1: 12384 0x148A94DE: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.34.0)
+  n0: 12384 in 6 places, all below massif's threshold (1.00%)
+ n2: 5032 0xFDEE5DE: g_realloc (in /lib/x86_64-linux-gnu/libglib-2.0.so.0.5400.1)
+  n2: 4096 0xFB82D85: g_value_register_transform_func (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.5400.1)
+   n1: 4096 0xFB8493A: ??? (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.5400.1)
+    n1: 4096 0xFB5519F: ??? (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.5400.1)
+     n1: 4096 0x400F898: call_init.part.0 (dl-init.c:72)
+      n1: 4096 0x400F9A9: _dl_init (dl-init.c:30)
+       n0: 4096 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+   n0: 0 in 6 places, all below massif's threshold (1.00%)
+  n0: 936 in 4 places, all below massif's threshold (1.00%)
+ n1: 4160 0xCFCCB3E: __new_exitfn (cxa_atexit.c:101)
+  n2: 4160 0xCFCCBE7: __cxa_atexit (cxa_atexit.c:35)
+   n1: 3120 0x400F898: call_init.part.0 (dl-init.c:72)
+    n1: 3120 0x400F9A9: _dl_init (dl-init.c:30)
+     n0: 3120 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+   n0: 1040 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=24
+#-----------
+time=188927157
+mem_heap_B=233902
+mem_heap_extra_B=16490
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=188996310
+mem_heap_B=233994
+mem_heap_extra_B=16630
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=189076145
+mem_heap_B=235250
+mem_heap_extra_B=16854
+mem_stacks_B=0
+heap_tree=detailed
+n8: 235250 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 93632 0x1DF60D45: ??? (in /usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.4)
+  n2: 93632 0x1DF6222C: asn1_array2tree (in /usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.4)
+   n1: 81320 0x1ACF80D3: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.8)
+    n1: 81320 0x1ACD6A3F: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.8)
+     n1: 81320 0x400F898: call_init.part.0 (dl-init.c:72)
+      n1: 81320 0x400F9A9: _dl_init (dl-init.c:30)
+       n0: 81320 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+   n1: 12312 0x1ACF81BB: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.8)
+    n1: 12312 0x1ACD6A3F: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.8)
+     n1: 12312 0x400F898: call_init.part.0 (dl-init.c:72)
+      n1: 12312 0x400F9A9: _dl_init (dl-init.c:30)
+       n0: 12312 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+ n1: 72704 0xC789224: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x400F898: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x400F9A9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+ n2: 17688 0xFDEE527: g_malloc (in /lib/x86_64-linux-gnu/libglib-2.0.so.0.5400.1)
+  n1: 16384 0xFDF8C5A: ??? (in /lib/x86_64-linux-gnu/libglib-2.0.so.0.5400.1)
+   n1: 16384 0x400F898: call_init.part.0 (dl-init.c:72)
+    n1: 16384 0x400F9A9: _dl_init (dl-init.c:30)
+     n0: 16384 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+  n0: 1304 in 5 places, all below massif's threshold (1.00%)
+ n0: 14562 in 84 places, all below massif's threshold (1.00%)
+ n1: 14048 0xFDEE57F: g_malloc0 (in /lib/x86_64-linux-gnu/libglib-2.0.so.0.5400.1)
+  n0: 14048 in 15 places, all below massif's threshold (1.00%)
+ n1: 12384 0x148A94DE: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.34.0)
+  n0: 12384 in 6 places, all below massif's threshold (1.00%)
+ n1: 5200 0xCFCCB3E: __new_exitfn (cxa_atexit.c:101)
+  n2: 5200 0xCFCCBE7: __cxa_atexit (cxa_atexit.c:35)
+   n1: 4160 0x400F898: call_init.part.0 (dl-init.c:72)
+    n1: 4160 0x400F9A9: _dl_init (dl-init.c:30)
+     n0: 4160 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+   n0: 1040 in 1 place, below massif's threshold (1.00%)
+ n2: 5032 0xFDEE5DE: g_realloc (in /lib/x86_64-linux-gnu/libglib-2.0.so.0.5400.1)
+  n2: 4096 0xFB82D85: g_value_register_transform_func (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.5400.1)
+   n1: 4096 0xFB8493A: ??? (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.5400.1)
+    n1: 4096 0xFB5519F: ??? (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.5400.1)
+     n1: 4096 0x400F898: call_init.part.0 (dl-init.c:72)
+      n1: 4096 0x400F9A9: _dl_init (dl-init.c:30)
+       n0: 4096 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+   n0: 0 in 6 places, all below massif's threshold (1.00%)
+  n0: 936 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=27
+#-----------
+time=189180778
+mem_heap_B=241263
+mem_heap_extra_B=18049
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=189261363
+mem_heap_B=236047
+mem_heap_extra_B=17025
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=189344637
+mem_heap_B=240335
+mem_heap_extra_B=17921
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=189400395
+mem_heap_B=238799
+mem_heap_extra_B=17601
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=189502941
+mem_heap_B=260750
+mem_heap_extra_B=21962
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=189562079
+mem_heap_B=273744
+mem_heap_extra_B=24608
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=189658045
+mem_heap_B=296200
+mem_heap_extra_B=28968
+mem_stacks_B=0
+heap_tree=detailed
+n13: 296200 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 93632 0x1DF60D45: ??? (in /usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.4)
+  n2: 93632 0x1DF6222C: asn1_array2tree (in /usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.4)
+   n1: 81320 0x1ACF80D3: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.8)
+    n1: 81320 0x1ACD6A3F: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.8)
+     n1: 81320 0x400F898: call_init.part.0 (dl-init.c:72)
+      n1: 81320 0x400F9A9: _dl_init (dl-init.c:30)
+       n0: 81320 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+   n1: 12312 0x1ACF81BB: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.8)
+    n1: 12312 0x1ACD6A3F: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.8)
+     n1: 12312 0x400F898: call_init.part.0 (dl-init.c:72)
+      n1: 12312 0x400F9A9: _dl_init (dl-init.c:30)
+       n0: 12312 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+ n1: 72704 0xC789224: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x400F898: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x400F9A9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+ n1: 22704 0x8B4B4B8: google::protobuf::internal::GenericTypeHandler<google::protobuf::FieldDescriptorProto>::NewFromPrototype(google::protobuf::FieldDescriptorProto const*, google::protobuf::Arena*) [clone .isra.239] (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+  n1: 22704 0x8B52049: google::protobuf::RepeatedPtrField<google::protobuf::FieldDescriptorProto>::TypeHandler::Type* google::protobuf::internal::RepeatedPtrFieldBase::Add<google::protobuf::RepeatedPtrField<google::protobuf::FieldDescriptorProto>::TypeHandler>(google::protobuf::RepeatedPtrField<google::protobuf::FieldDescriptorProto>::TypeHandler::Type*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+   n2: 22704 0x8B5BC44: google::protobuf::DescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+    n1: 22704 0x8B5CFF5: google::protobuf::FileDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+     n1: 22704 0x8B0A1D2: google::protobuf::MessageLite::ParseFromArray(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+      n1: 22704 0x8B68D11: google::protobuf::EncodedDescriptorDatabase::Add(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+       n2: 22704 0x8B18598: google::protobuf::DescriptorPool::InternalAddGeneratedFile(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+        n1: 22704 0x89B4E92: caffe::protobuf_AddDesc_caffe_2eproto_impl() (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+         n1: 22704 0x8B1019B: google::protobuf::GoogleOnceInitImpl(long*, google::protobuf::Closure*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+          n1: 22704 0x896FE53: _GLOBAL__sub_I_caffe.pb.cc (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+           n1: 22704 0x400F898: call_init.part.0 (dl-init.c:72)
+            n1: 22704 0x400F9A9: _dl_init (dl-init.c:30)
+             n0: 22704 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+        n0: 0 in 7 places, all below massif's threshold (1.00%)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 20503 in 108 places, all below massif's threshold (1.00%)
+ n2: 17688 0xFDEE527: g_malloc (in /lib/x86_64-linux-gnu/libglib-2.0.so.0.5400.1)
+  n1: 16384 0xFDF8C5A: ??? (in /lib/x86_64-linux-gnu/libglib-2.0.so.0.5400.1)
+   n1: 16384 0x400F898: call_init.part.0 (dl-init.c:72)
+    n1: 16384 0x400F9A9: _dl_init (dl-init.c:30)
+     n0: 16384 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+  n0: 1304 in 5 places, all below massif's threshold (1.00%)
+ n2: 16320 0x89B8427: google::protobuf::internal::ArenaStringPtr::CreateInstanceNoArena(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+  n1: 8256 0x8B55B63: google::protobuf::FieldDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+   n2: 8256 0x8B5BC62: google::protobuf::DescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+    n1: 8256 0x8B5CFF5: google::protobuf::FileDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+     n1: 8256 0x8B0A1D2: google::protobuf::MessageLite::ParseFromArray(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+      n1: 8256 0x8B68D11: google::protobuf::EncodedDescriptorDatabase::Add(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+       n2: 8256 0x8B18598: google::protobuf::DescriptorPool::InternalAddGeneratedFile(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+        n1: 8256 0x89B4E92: caffe::protobuf_AddDesc_caffe_2eproto_impl() (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+         n1: 8256 0x8B1019B: google::protobuf::GoogleOnceInitImpl(long*, google::protobuf::Closure*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+          n1: 8256 0x896FE53: _GLOBAL__sub_I_caffe.pb.cc (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+           n1: 8256 0x400F898: call_init.part.0 (dl-init.c:72)
+            n1: 8256 0x400F9A9: _dl_init (dl-init.c:30)
+             n0: 8256 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+        n0: 0 in 7 places, all below massif's threshold (1.00%)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+  n0: 8064 in 11 places, all below massif's threshold (1.00%)
+ n1: 14048 0xFDEE57F: g_malloc0 (in /lib/x86_64-linux-gnu/libglib-2.0.so.0.5400.1)
+  n0: 14048 in 15 places, all below massif's threshold (1.00%)
+ n1: 12384 0x148A94DE: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.34.0)
+  n0: 12384 in 6 places, all below massif's threshold (1.00%)
+ n2: 7424 0x8B5B498: google::protobuf::internal::GenericTypeHandler<google::protobuf::DescriptorProto>::NewFromPrototype(google::protobuf::DescriptorProto const*, google::protobuf::Arena*) [clone .isra.233] (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+  n1: 7424 0x8B5CFBE: google::protobuf::FileDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+   n1: 7424 0x8B0A1D2: google::protobuf::MessageLite::ParseFromArray(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+    n1: 7424 0x8B68D11: google::protobuf::EncodedDescriptorDatabase::Add(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+     n2: 7424 0x8B18598: google::protobuf::DescriptorPool::InternalAddGeneratedFile(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+      n1: 7424 0x89B4E92: caffe::protobuf_AddDesc_caffe_2eproto_impl() (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+       n1: 7424 0x8B1019B: google::protobuf::GoogleOnceInitImpl(long*, google::protobuf::Closure*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+        n1: 7424 0x896FE53: _GLOBAL__sub_I_caffe.pb.cc (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+         n1: 7424 0x400F898: call_init.part.0 (dl-init.c:72)
+          n1: 7424 0x400F9A9: _dl_init (dl-init.c:30)
+           n0: 7424 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+      n0: 0 in 7 places, all below massif's threshold (1.00%)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 5200 0xCFCCB3E: __new_exitfn (cxa_atexit.c:101)
+  n2: 5200 0xCFCCBE7: __cxa_atexit (cxa_atexit.c:35)
+   n1: 4160 0x400F898: call_init.part.0 (dl-init.c:72)
+    n1: 4160 0x400F9A9: _dl_init (dl-init.c:30)
+     n0: 4160 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+   n0: 1040 in 1 place, below massif's threshold (1.00%)
+ n2: 5032 0xFDEE5DE: g_realloc (in /lib/x86_64-linux-gnu/libglib-2.0.so.0.5400.1)
+  n2: 4096 0xFB82D85: g_value_register_transform_func (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.5400.1)
+   n1: 4096 0xFB8493A: ??? (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.5400.1)
+    n1: 4096 0xFB5519F: ??? (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.5400.1)
+     n1: 4096 0x400F898: call_init.part.0 (dl-init.c:72)
+      n1: 4096 0x400F9A9: _dl_init (dl-init.c:30)
+       n0: 4096 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+   n0: 0 in 6 places, all below massif's threshold (1.00%)
+  n0: 936 in 4 places, all below massif's threshold (1.00%)
+ n1: 4672 0x8B0BDB6: google::protobuf::internal::RepeatedPtrFieldBase::Reserve(int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+  n0: 4672 in 8 places, all below massif's threshold (1.00%)
+ n2: 3889 0xC81BE98: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 3889 0xC81C86E: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace_aux(unsigned long, unsigned long, unsigned long, char) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n1: 3889 0x8B153ED: google::protobuf::internal::WireFormatLite::ReadBytes(google::protobuf::io::CodedInputStream*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+    n0: 3889 in 9 places, all below massif's threshold (1.00%)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=34
+#-----------
+time=189743219
+mem_heap_B=316250
+mem_heap_extra_B=32854
+mem_stacks_B=0
+heap_tree=detailed
+n13: 316250 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 93632 0x1DF60D45: ??? (in /usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.4)
+  n2: 93632 0x1DF6222C: asn1_array2tree (in /usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.4)
+   n1: 81320 0x1ACF80D3: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.8)
+    n1: 81320 0x1ACD6A3F: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.8)
+     n1: 81320 0x400F898: call_init.part.0 (dl-init.c:72)
+      n1: 81320 0x400F9A9: _dl_init (dl-init.c:30)
+       n0: 81320 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+   n1: 12312 0x1ACF81BB: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.8)
+    n1: 12312 0x1ACD6A3F: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.8)
+     n1: 12312 0x400F898: call_init.part.0 (dl-init.c:72)
+      n1: 12312 0x400F9A9: _dl_init (dl-init.c:30)
+       n0: 12312 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+ n1: 72704 0xC789224: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x400F898: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x400F9A9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+ n1: 29480 0x8B4B4B8: google::protobuf::internal::GenericTypeHandler<google::protobuf::FieldDescriptorProto>::NewFromPrototype(google::protobuf::FieldDescriptorProto const*, google::protobuf::Arena*) [clone .isra.239] (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+  n1: 29480 0x8B52049: google::protobuf::RepeatedPtrField<google::protobuf::FieldDescriptorProto>::TypeHandler::Type* google::protobuf::internal::RepeatedPtrFieldBase::Add<google::protobuf::RepeatedPtrField<google::protobuf::FieldDescriptorProto>::TypeHandler>(google::protobuf::RepeatedPtrField<google::protobuf::FieldDescriptorProto>::TypeHandler::Type*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+   n2: 29480 0x8B5BC44: google::protobuf::DescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+    n1: 29480 0x8B5CFF5: google::protobuf::FileDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+     n1: 29480 0x8B0A1D2: google::protobuf::MessageLite::ParseFromArray(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+      n1: 29480 0x8B68D11: google::protobuf::EncodedDescriptorDatabase::Add(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+       n2: 29480 0x8B18598: google::protobuf::DescriptorPool::InternalAddGeneratedFile(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+        n1: 29480 0x89B4E92: caffe::protobuf_AddDesc_caffe_2eproto_impl() (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+         n1: 29480 0x8B1019B: google::protobuf::GoogleOnceInitImpl(long*, google::protobuf::Closure*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+          n1: 29480 0x896FE53: _GLOBAL__sub_I_caffe.pb.cc (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+           n1: 29480 0x400F898: call_init.part.0 (dl-init.c:72)
+            n1: 29480 0x400F9A9: _dl_init (dl-init.c:30)
+             n0: 29480 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+        n0: 0 in 7 places, all below massif's threshold (1.00%)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+ n3: 21984 0x89B8427: google::protobuf::internal::ArenaStringPtr::CreateInstanceNoArena(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+  n1: 10720 0x8B55B63: google::protobuf::FieldDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+   n2: 10720 0x8B5BC62: google::protobuf::DescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+    n1: 10720 0x8B5CFF5: google::protobuf::FileDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+     n1: 10720 0x8B0A1D2: google::protobuf::MessageLite::ParseFromArray(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+      n1: 10720 0x8B68D11: google::protobuf::EncodedDescriptorDatabase::Add(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+       n2: 10720 0x8B18598: google::protobuf::DescriptorPool::InternalAddGeneratedFile(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+        n1: 10720 0x89B4E92: caffe::protobuf_AddDesc_caffe_2eproto_impl() (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+         n1: 10720 0x8B1019B: google::protobuf::GoogleOnceInitImpl(long*, google::protobuf::Closure*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+          n1: 10720 0x896FE53: _GLOBAL__sub_I_caffe.pb.cc (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+           n1: 10720 0x400F898: call_init.part.0 (dl-init.c:72)
+            n1: 10720 0x400F9A9: _dl_init (dl-init.c:30)
+             n0: 10720 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+        n0: 0 in 7 places, all below massif's threshold (1.00%)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+  n0: 6816 in 10 places, all below massif's threshold (1.00%)
+  n1: 4448 0x8B55B0D: google::protobuf::FieldDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+   n1: 4448 0x8B5BC62: google::protobuf::DescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+    n1: 4448 0x8B5CFF5: google::protobuf::FileDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+     n1: 4448 0x8B0A1D2: google::protobuf::MessageLite::ParseFromArray(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+      n1: 4448 0x8B68D11: google::protobuf::EncodedDescriptorDatabase::Add(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+       n1: 4448 0x8B18598: google::protobuf::DescriptorPool::InternalAddGeneratedFile(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+        n1: 4448 0x89B4E92: caffe::protobuf_AddDesc_caffe_2eproto_impl() (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+         n1: 4448 0x8B1019B: google::protobuf::GoogleOnceInitImpl(long*, google::protobuf::Closure*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+          n1: 4448 0x896FE53: _GLOBAL__sub_I_caffe.pb.cc (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+           n1: 4448 0x400F898: call_init.part.0 (dl-init.c:72)
+            n1: 4448 0x400F9A9: _dl_init (dl-init.c:30)
+             n0: 4448 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+ n0: 21447 in 108 places, all below massif's threshold (1.00%)
+ n2: 17688 0xFDEE527: g_malloc (in /lib/x86_64-linux-gnu/libglib-2.0.so.0.5400.1)
+  n1: 16384 0xFDF8C5A: ??? (in /lib/x86_64-linux-gnu/libglib-2.0.so.0.5400.1)
+   n1: 16384 0x400F898: call_init.part.0 (dl-init.c:72)
+    n1: 16384 0x400F9A9: _dl_init (dl-init.c:30)
+     n0: 16384 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+  n0: 1304 in 5 places, all below massif's threshold (1.00%)
+ n1: 14048 0xFDEE57F: g_malloc0 (in /lib/x86_64-linux-gnu/libglib-2.0.so.0.5400.1)
+  n0: 14048 in 15 places, all below massif's threshold (1.00%)
+ n1: 12384 0x148A94DE: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.34.0)
+  n0: 12384 in 6 places, all below massif's threshold (1.00%)
+ n2: 12064 0x8B5B498: google::protobuf::internal::GenericTypeHandler<google::protobuf::DescriptorProto>::NewFromPrototype(google::protobuf::DescriptorProto const*, google::protobuf::Arena*) [clone .isra.233] (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+  n1: 12064 0x8B5CFBE: google::protobuf::FileDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+   n1: 12064 0x8B0A1D2: google::protobuf::MessageLite::ParseFromArray(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+    n1: 12064 0x8B68D11: google::protobuf::EncodedDescriptorDatabase::Add(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+     n2: 12064 0x8B18598: google::protobuf::DescriptorPool::InternalAddGeneratedFile(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+      n1: 12064 0x89B4E92: caffe::protobuf_AddDesc_caffe_2eproto_impl() (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+       n1: 12064 0x8B1019B: google::protobuf::GoogleOnceInitImpl(long*, google::protobuf::Closure*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+        n1: 12064 0x896FE53: _GLOBAL__sub_I_caffe.pb.cc (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+         n1: 12064 0x400F898: call_init.part.0 (dl-init.c:72)
+          n1: 12064 0x400F9A9: _dl_init (dl-init.c:30)
+           n0: 12064 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+      n0: 0 in 7 places, all below massif's threshold (1.00%)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n2: 5888 0x8B0BDB6: google::protobuf::internal::RepeatedPtrFieldBase::Reserve(int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+  n1: 4296 0x8B5207C: google::protobuf::RepeatedPtrField<google::protobuf::FieldDescriptorProto>::TypeHandler::Type* google::protobuf::internal::RepeatedPtrFieldBase::Add<google::protobuf::RepeatedPtrField<google::protobuf::FieldDescriptorProto>::TypeHandler>(google::protobuf::RepeatedPtrField<google::protobuf::FieldDescriptorProto>::TypeHandler::Type*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+   n2: 4296 0x8B5BC44: google::protobuf::DescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+    n1: 4296 0x8B5CFF5: google::protobuf::FileDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+     n1: 4296 0x8B0A1D2: google::protobuf::MessageLite::ParseFromArray(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+      n1: 4296 0x8B68D11: google::protobuf::EncodedDescriptorDatabase::Add(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+       n2: 4296 0x8B18598: google::protobuf::DescriptorPool::InternalAddGeneratedFile(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+        n1: 4296 0x89B4E92: caffe::protobuf_AddDesc_caffe_2eproto_impl() (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+         n1: 4296 0x8B1019B: google::protobuf::GoogleOnceInitImpl(long*, google::protobuf::Closure*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+          n1: 4296 0x896FE53: _GLOBAL__sub_I_caffe.pb.cc (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+           n1: 4296 0x400F898: call_init.part.0 (dl-init.c:72)
+            n1: 4296 0x400F9A9: _dl_init (dl-init.c:30)
+             n0: 4296 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+        n0: 0 in 7 places, all below massif's threshold (1.00%)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+  n0: 1592 in 7 places, all below massif's threshold (1.00%)
+ n1: 5200 0xCFCCB3E: __new_exitfn (cxa_atexit.c:101)
+  n2: 5200 0xCFCCBE7: __cxa_atexit (cxa_atexit.c:35)
+   n1: 4160 0x400F898: call_init.part.0 (dl-init.c:72)
+    n1: 4160 0x400F9A9: _dl_init (dl-init.c:30)
+     n0: 4160 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+   n0: 1040 in 1 place, below massif's threshold (1.00%)
+ n2: 5032 0xFDEE5DE: g_realloc (in /lib/x86_64-linux-gnu/libglib-2.0.so.0.5400.1)
+  n2: 4096 0xFB82D85: g_value_register_transform_func (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.5400.1)
+   n1: 4096 0xFB8493A: ??? (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.5400.1)
+    n1: 4096 0xFB5519F: ??? (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.5400.1)
+     n1: 4096 0x400F898: call_init.part.0 (dl-init.c:72)
+      n1: 4096 0x400F9A9: _dl_init (dl-init.c:30)
+       n0: 4096 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+   n0: 0 in 6 places, all below massif's threshold (1.00%)
+  n0: 936 in 4 places, all below massif's threshold (1.00%)
+ n2: 4699 0xC81BE98: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 4699 0xC81C86E: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace_aux(unsigned long, unsigned long, unsigned long, char) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n1: 4699 0x8B153ED: google::protobuf::internal::WireFormatLite::ReadBytes(google::protobuf::io::CodedInputStream*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+    n0: 4699 in 9 places, all below massif's threshold (1.00%)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=35
+#-----------
+time=189801283
+mem_heap_B=330585
+mem_heap_extra_B=35495
+mem_stacks_B=0
+heap_tree=detailed
+n13: 330585 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 93632 0x1DF60D45: ??? (in /usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.4)
+  n2: 93632 0x1DF6222C: asn1_array2tree (in /usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.4)
+   n1: 81320 0x1ACF80D3: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.8)
+    n1: 81320 0x1ACD6A3F: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.8)
+     n1: 81320 0x400F898: call_init.part.0 (dl-init.c:72)
+      n1: 81320 0x400F9A9: _dl_init (dl-init.c:30)
+       n0: 81320 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+   n1: 12312 0x1ACF81BB: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.8)
+    n1: 12312 0x1ACD6A3F: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.8)
+     n1: 12312 0x400F898: call_init.part.0 (dl-init.c:72)
+      n1: 12312 0x400F9A9: _dl_init (dl-init.c:30)
+       n0: 12312 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+ n1: 72704 0xC789224: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x400F898: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x400F9A9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+ n1: 33000 0x8B4B4B8: google::protobuf::internal::GenericTypeHandler<google::protobuf::FieldDescriptorProto>::NewFromPrototype(google::protobuf::FieldDescriptorProto const*, google::protobuf::Arena*) [clone .isra.239] (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+  n1: 33000 0x8B52049: google::protobuf::RepeatedPtrField<google::protobuf::FieldDescriptorProto>::TypeHandler::Type* google::protobuf::internal::RepeatedPtrFieldBase::Add<google::protobuf::RepeatedPtrField<google::protobuf::FieldDescriptorProto>::TypeHandler>(google::protobuf::RepeatedPtrField<google::protobuf::FieldDescriptorProto>::TypeHandler::Type*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+   n2: 33000 0x8B5BC44: google::protobuf::DescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+    n1: 33000 0x8B5CFF5: google::protobuf::FileDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+     n1: 33000 0x8B0A1D2: google::protobuf::MessageLite::ParseFromArray(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+      n1: 33000 0x8B68D11: google::protobuf::EncodedDescriptorDatabase::Add(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+       n2: 33000 0x8B18598: google::protobuf::DescriptorPool::InternalAddGeneratedFile(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+        n1: 33000 0x89B4E92: caffe::protobuf_AddDesc_caffe_2eproto_impl() (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+         n1: 33000 0x8B1019B: google::protobuf::GoogleOnceInitImpl(long*, google::protobuf::Closure*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+          n1: 33000 0x896FE53: _GLOBAL__sub_I_caffe.pb.cc (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+           n1: 33000 0x400F898: call_init.part.0 (dl-init.c:72)
+            n1: 33000 0x400F9A9: _dl_init (dl-init.c:30)
+             n0: 33000 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+        n0: 0 in 7 places, all below massif's threshold (1.00%)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+ n3: 25888 0x89B8427: google::protobuf::internal::ArenaStringPtr::CreateInstanceNoArena(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+  n1: 12000 0x8B55B63: google::protobuf::FieldDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+   n2: 12000 0x8B5BC62: google::protobuf::DescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+    n1: 12000 0x8B5CFF5: google::protobuf::FileDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+     n1: 12000 0x8B0A1D2: google::protobuf::MessageLite::ParseFromArray(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+      n1: 12000 0x8B68D11: google::protobuf::EncodedDescriptorDatabase::Add(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+       n2: 12000 0x8B18598: google::protobuf::DescriptorPool::InternalAddGeneratedFile(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+        n1: 12000 0x89B4E92: caffe::protobuf_AddDesc_caffe_2eproto_impl() (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+         n1: 12000 0x8B1019B: google::protobuf::GoogleOnceInitImpl(long*, google::protobuf::Closure*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+          n1: 12000 0x896FE53: _GLOBAL__sub_I_caffe.pb.cc (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+           n1: 12000 0x400F898: call_init.part.0 (dl-init.c:72)
+            n1: 12000 0x400F9A9: _dl_init (dl-init.c:30)
+             n0: 12000 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+        n0: 0 in 7 places, all below massif's threshold (1.00%)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+  n0: 8448 in 10 places, all below massif's threshold (1.00%)
+  n1: 5440 0x8B55B0D: google::protobuf::FieldDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+   n1: 5440 0x8B5BC62: google::protobuf::DescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+    n1: 5440 0x8B5CFF5: google::protobuf::FileDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+     n1: 5440 0x8B0A1D2: google::protobuf::MessageLite::ParseFromArray(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+      n1: 5440 0x8B68D11: google::protobuf::EncodedDescriptorDatabase::Add(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+       n1: 5440 0x8B18598: google::protobuf::DescriptorPool::InternalAddGeneratedFile(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+        n1: 5440 0x89B4E92: caffe::protobuf_AddDesc_caffe_2eproto_impl() (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+         n1: 5440 0x8B1019B: google::protobuf::GoogleOnceInitImpl(long*, google::protobuf::Closure*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+          n1: 5440 0x896FE53: _GLOBAL__sub_I_caffe.pb.cc (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+           n1: 5440 0x400F898: call_init.part.0 (dl-init.c:72)
+            n1: 5440 0x400F9A9: _dl_init (dl-init.c:30)
+             n0: 5440 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+ n0: 22951 in 108 places, all below massif's threshold (1.00%)
+ n2: 17688 0xFDEE527: g_malloc (in /lib/x86_64-linux-gnu/libglib-2.0.so.0.5400.1)
+  n1: 16384 0xFDF8C5A: ??? (in /lib/x86_64-linux-gnu/libglib-2.0.so.0.5400.1)
+   n1: 16384 0x400F898: call_init.part.0 (dl-init.c:72)
+    n1: 16384 0x400F9A9: _dl_init (dl-init.c:30)
+     n0: 16384 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+  n0: 1304 in 5 places, all below massif's threshold (1.00%)
+ n2: 14848 0x8B5B498: google::protobuf::internal::GenericTypeHandler<google::protobuf::DescriptorProto>::NewFromPrototype(google::protobuf::DescriptorProto const*, google::protobuf::Arena*) [clone .isra.233] (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+  n1: 14848 0x8B5CFBE: google::protobuf::FileDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+   n1: 14848 0x8B0A1D2: google::protobuf::MessageLite::ParseFromArray(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+    n1: 14848 0x8B68D11: google::protobuf::EncodedDescriptorDatabase::Add(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+     n2: 14848 0x8B18598: google::protobuf::DescriptorPool::InternalAddGeneratedFile(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+      n1: 14848 0x89B4E92: caffe::protobuf_AddDesc_caffe_2eproto_impl() (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+       n1: 14848 0x8B1019B: google::protobuf::GoogleOnceInitImpl(long*, google::protobuf::Closure*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+        n1: 14848 0x896FE53: _GLOBAL__sub_I_caffe.pb.cc (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+         n1: 14848 0x400F898: call_init.part.0 (dl-init.c:72)
+          n1: 14848 0x400F9A9: _dl_init (dl-init.c:30)
+           n0: 14848 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+      n0: 0 in 7 places, all below massif's threshold (1.00%)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 14048 0xFDEE57F: g_malloc0 (in /lib/x86_64-linux-gnu/libglib-2.0.so.0.5400.1)
+  n0: 14048 in 15 places, all below massif's threshold (1.00%)
+ n1: 12384 0x148A94DE: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.34.0)
+  n0: 12384 in 6 places, all below massif's threshold (1.00%)
+ n2: 8008 0x8B0BDB6: google::protobuf::internal::RepeatedPtrFieldBase::Reserve(int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+  n1: 4864 0x8B5207C: google::protobuf::RepeatedPtrField<google::protobuf::FieldDescriptorProto>::TypeHandler::Type* google::protobuf::internal::RepeatedPtrFieldBase::Add<google::protobuf::RepeatedPtrField<google::protobuf::FieldDescriptorProto>::TypeHandler>(google::protobuf::RepeatedPtrField<google::protobuf::FieldDescriptorProto>::TypeHandler::Type*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+   n2: 4864 0x8B5BC44: google::protobuf::DescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+    n1: 4864 0x8B5CFF5: google::protobuf::FileDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+     n1: 4864 0x8B0A1D2: google::protobuf::MessageLite::ParseFromArray(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+      n1: 4864 0x8B68D11: google::protobuf::EncodedDescriptorDatabase::Add(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+       n2: 4864 0x8B18598: google::protobuf::DescriptorPool::InternalAddGeneratedFile(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+        n1: 4864 0x89B4E92: caffe::protobuf_AddDesc_caffe_2eproto_impl() (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+         n1: 4864 0x8B1019B: google::protobuf::GoogleOnceInitImpl(long*, google::protobuf::Closure*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+          n1: 4864 0x896FE53: _GLOBAL__sub_I_caffe.pb.cc (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+           n1: 4864 0x400F898: call_init.part.0 (dl-init.c:72)
+            n1: 4864 0x400F9A9: _dl_init (dl-init.c:30)
+             n0: 4864 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+        n0: 0 in 7 places, all below massif's threshold (1.00%)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+  n0: 3144 in 7 places, all below massif's threshold (1.00%)
+ n2: 5202 0xC81BE98: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 5202 0xC81C86E: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace_aux(unsigned long, unsigned long, unsigned long, char) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n1: 5202 0x8B153ED: google::protobuf::internal::WireFormatLite::ReadBytes(google::protobuf::io::CodedInputStream*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+    n0: 5202 in 9 places, all below massif's threshold (1.00%)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 5200 0xCFCCB3E: __new_exitfn (cxa_atexit.c:101)
+  n2: 5200 0xCFCCBE7: __cxa_atexit (cxa_atexit.c:35)
+   n1: 4160 0x400F898: call_init.part.0 (dl-init.c:72)
+    n1: 4160 0x400F9A9: _dl_init (dl-init.c:30)
+     n0: 4160 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+   n0: 1040 in 1 place, below massif's threshold (1.00%)
+ n2: 5032 0xFDEE5DE: g_realloc (in /lib/x86_64-linux-gnu/libglib-2.0.so.0.5400.1)
+  n2: 4096 0xFB82D85: g_value_register_transform_func (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.5400.1)
+   n1: 4096 0xFB8493A: ??? (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.5400.1)
+    n1: 4096 0xFB5519F: ??? (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.5400.1)
+     n1: 4096 0x400F898: call_init.part.0 (dl-init.c:72)
+      n1: 4096 0x400F9A9: _dl_init (dl-init.c:30)
+       n0: 4096 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+   n0: 0 in 6 places, all below massif's threshold (1.00%)
+  n0: 936 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=36
+#-----------
+time=189889814
+mem_heap_B=348750
+mem_heap_extra_B=39218
+mem_stacks_B=0
+heap_tree=detailed
+n14: 348750 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 93632 0x1DF60D45: ??? (in /usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.4)
+  n2: 93632 0x1DF6222C: asn1_array2tree (in /usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.4)
+   n1: 81320 0x1ACF80D3: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.8)
+    n1: 81320 0x1ACD6A3F: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.8)
+     n1: 81320 0x400F898: call_init.part.0 (dl-init.c:72)
+      n1: 81320 0x400F9A9: _dl_init (dl-init.c:30)
+       n0: 81320 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+   n1: 12312 0x1ACF81BB: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.8)
+    n1: 12312 0x1ACD6A3F: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.8)
+     n1: 12312 0x400F898: call_init.part.0 (dl-init.c:72)
+      n1: 12312 0x400F9A9: _dl_init (dl-init.c:30)
+       n0: 12312 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+ n1: 72704 0xC789224: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x400F898: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x400F9A9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+ n1: 39600 0x8B4B4B8: google::protobuf::internal::GenericTypeHandler<google::protobuf::FieldDescriptorProto>::NewFromPrototype(google::protobuf::FieldDescriptorProto const*, google::protobuf::Arena*) [clone .isra.239] (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+  n1: 39600 0x8B52049: google::protobuf::RepeatedPtrField<google::protobuf::FieldDescriptorProto>::TypeHandler::Type* google::protobuf::internal::RepeatedPtrFieldBase::Add<google::protobuf::RepeatedPtrField<google::protobuf::FieldDescriptorProto>::TypeHandler>(google::protobuf::RepeatedPtrField<google::protobuf::FieldDescriptorProto>::TypeHandler::Type*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+   n2: 39600 0x8B5BC44: google::protobuf::DescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+    n1: 39600 0x8B5CFF5: google::protobuf::FileDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+     n1: 39600 0x8B0A1D2: google::protobuf::MessageLite::ParseFromArray(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+      n1: 39600 0x8B68D11: google::protobuf::EncodedDescriptorDatabase::Add(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+       n2: 39600 0x8B18598: google::protobuf::DescriptorPool::InternalAddGeneratedFile(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+        n1: 39600 0x89B4E92: caffe::protobuf_AddDesc_caffe_2eproto_impl() (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+         n1: 39600 0x8B1019B: google::protobuf::GoogleOnceInitImpl(long*, google::protobuf::Closure*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+          n1: 39600 0x896FE53: _GLOBAL__sub_I_caffe.pb.cc (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+           n1: 39600 0x400F898: call_init.part.0 (dl-init.c:72)
+            n1: 39600 0x400F9A9: _dl_init (dl-init.c:30)
+             n0: 39600 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+        n0: 0 in 7 places, all below massif's threshold (1.00%)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+ n4: 31680 0x89B8427: google::protobuf::internal::ArenaStringPtr::CreateInstanceNoArena(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+  n1: 14400 0x8B55B63: google::protobuf::FieldDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+   n2: 14400 0x8B5BC62: google::protobuf::DescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+    n1: 14400 0x8B5CFF5: google::protobuf::FileDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+     n1: 14400 0x8B0A1D2: google::protobuf::MessageLite::ParseFromArray(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+      n1: 14400 0x8B68D11: google::protobuf::EncodedDescriptorDatabase::Add(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+       n2: 14400 0x8B18598: google::protobuf::DescriptorPool::InternalAddGeneratedFile(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+        n1: 14400 0x89B4E92: caffe::protobuf_AddDesc_caffe_2eproto_impl() (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+         n1: 14400 0x8B1019B: google::protobuf::GoogleOnceInitImpl(long*, google::protobuf::Closure*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+          n1: 14400 0x896FE53: _GLOBAL__sub_I_caffe.pb.cc (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+           n1: 14400 0x400F898: call_init.part.0 (dl-init.c:72)
+            n1: 14400 0x400F9A9: _dl_init (dl-init.c:30)
+             n0: 14400 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+        n0: 0 in 7 places, all below massif's threshold (1.00%)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+  n0: 6336 in 9 places, all below massif's threshold (1.00%)
+  n1: 6080 0x8B55B0D: google::protobuf::FieldDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+   n1: 6080 0x8B5BC62: google::protobuf::DescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+    n1: 6080 0x8B5CFF5: google::protobuf::FileDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+     n1: 6080 0x8B0A1D2: google::protobuf::MessageLite::ParseFromArray(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+      n1: 6080 0x8B68D11: google::protobuf::EncodedDescriptorDatabase::Add(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+       n1: 6080 0x8B18598: google::protobuf::DescriptorPool::InternalAddGeneratedFile(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+        n1: 6080 0x89B4E92: caffe::protobuf_AddDesc_caffe_2eproto_impl() (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+         n1: 6080 0x8B1019B: google::protobuf::GoogleOnceInitImpl(long*, google::protobuf::Closure*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+          n1: 6080 0x896FE53: _GLOBAL__sub_I_caffe.pb.cc (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+           n1: 6080 0x400F898: call_init.part.0 (dl-init.c:72)
+            n1: 6080 0x400F9A9: _dl_init (dl-init.c:30)
+             n0: 6080 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+  n1: 4864 0x8B55B34: google::protobuf::FieldDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+   n2: 4864 0x8B5BC62: google::protobuf::DescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+    n1: 4864 0x8B5CFF5: google::protobuf::FileDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+     n1: 4864 0x8B0A1D2: google::protobuf::MessageLite::ParseFromArray(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+      n1: 4864 0x8B68D11: google::protobuf::EncodedDescriptorDatabase::Add(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+       n2: 4864 0x8B18598: google::protobuf::DescriptorPool::InternalAddGeneratedFile(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+        n1: 4864 0x89B4E92: caffe::protobuf_AddDesc_caffe_2eproto_impl() (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+         n1: 4864 0x8B1019B: google::protobuf::GoogleOnceInitImpl(long*, google::protobuf::Closure*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+          n1: 4864 0x896FE53: _GLOBAL__sub_I_caffe.pb.cc (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+           n1: 4864 0x400F898: call_init.part.0 (dl-init.c:72)
+            n1: 4864 0x400F9A9: _dl_init (dl-init.c:30)
+             n0: 4864 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+        n0: 0 in 6 places, all below massif's threshold (1.00%)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 20007 in 107 places, all below massif's threshold (1.00%)
+ n2: 17688 0xFDEE527: g_malloc (in /lib/x86_64-linux-gnu/libglib-2.0.so.0.5400.1)
+  n1: 16384 0xFDF8C5A: ??? (in /lib/x86_64-linux-gnu/libglib-2.0.so.0.5400.1)
+   n1: 16384 0x400F898: call_init.part.0 (dl-init.c:72)
+    n1: 16384 0x400F9A9: _dl_init (dl-init.c:30)
+     n0: 16384 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+  n0: 1304 in 5 places, all below massif's threshold (1.00%)
+ n2: 15312 0x8B5B498: google::protobuf::internal::GenericTypeHandler<google::protobuf::DescriptorProto>::NewFromPrototype(google::protobuf::DescriptorProto const*, google::protobuf::Arena*) [clone .isra.233] (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+  n1: 15312 0x8B5CFBE: google::protobuf::FileDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+   n1: 15312 0x8B0A1D2: google::protobuf::MessageLite::ParseFromArray(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+    n1: 15312 0x8B68D11: google::protobuf::EncodedDescriptorDatabase::Add(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+     n2: 15312 0x8B18598: google::protobuf::DescriptorPool::InternalAddGeneratedFile(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+      n1: 15312 0x89B4E92: caffe::protobuf_AddDesc_caffe_2eproto_impl() (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+       n1: 15312 0x8B1019B: google::protobuf::GoogleOnceInitImpl(long*, google::protobuf::Closure*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+        n1: 15312 0x896FE53: _GLOBAL__sub_I_caffe.pb.cc (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+         n1: 15312 0x400F898: call_init.part.0 (dl-init.c:72)
+          n1: 15312 0x400F9A9: _dl_init (dl-init.c:30)
+           n0: 15312 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+      n0: 0 in 7 places, all below massif's threshold (1.00%)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 14048 0xFDEE57F: g_malloc0 (in /lib/x86_64-linux-gnu/libglib-2.0.so.0.5400.1)
+  n0: 14048 in 15 places, all below massif's threshold (1.00%)
+ n1: 12384 0x148A94DE: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.34.0)
+  n0: 12384 in 6 places, all below massif's threshold (1.00%)
+ n2: 9392 0x8B0BDB6: google::protobuf::internal::RepeatedPtrFieldBase::Reserve(int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+  n1: 6168 0x8B5207C: google::protobuf::RepeatedPtrField<google::protobuf::FieldDescriptorProto>::TypeHandler::Type* google::protobuf::internal::RepeatedPtrFieldBase::Add<google::protobuf::RepeatedPtrField<google::protobuf::FieldDescriptorProto>::TypeHandler>(google::protobuf::RepeatedPtrField<google::protobuf::FieldDescriptorProto>::TypeHandler::Type*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+   n2: 6168 0x8B5BC44: google::protobuf::DescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+    n1: 6168 0x8B5CFF5: google::protobuf::FileDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+     n1: 6168 0x8B0A1D2: google::protobuf::MessageLite::ParseFromArray(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+      n1: 6168 0x8B68D11: google::protobuf::EncodedDescriptorDatabase::Add(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+       n2: 6168 0x8B18598: google::protobuf::DescriptorPool::InternalAddGeneratedFile(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+        n1: 6168 0x89B4E92: caffe::protobuf_AddDesc_caffe_2eproto_impl() (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+         n1: 6168 0x8B1019B: google::protobuf::GoogleOnceInitImpl(long*, google::protobuf::Closure*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+          n1: 6168 0x896FE53: _GLOBAL__sub_I_caffe.pb.cc (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+           n1: 6168 0x400F898: call_init.part.0 (dl-init.c:72)
+            n1: 6168 0x400F9A9: _dl_init (dl-init.c:30)
+             n0: 6168 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+        n0: 0 in 7 places, all below massif's threshold (1.00%)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+  n0: 3224 in 7 places, all below massif's threshold (1.00%)
+ n2: 6983 0xC81BE98: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 6983 0xC81C86E: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace_aux(unsigned long, unsigned long, unsigned long, char) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n2: 6983 0x8B153ED: google::protobuf::internal::WireFormatLite::ReadBytes(google::protobuf::io::CodedInputStream*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+    n1: 4565 0x8B5584B: google::protobuf::FieldDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+     n2: 4565 0x8B5BC62: google::protobuf::DescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+      n1: 4565 0x8B5CFF5: google::protobuf::FileDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+       n1: 4565 0x8B0A1D2: google::protobuf::MessageLite::ParseFromArray(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+        n1: 4565 0x8B68D11: google::protobuf::EncodedDescriptorDatabase::Add(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+         n2: 4565 0x8B18598: google::protobuf::DescriptorPool::InternalAddGeneratedFile(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+          n1: 4565 0x89B4E92: caffe::protobuf_AddDesc_caffe_2eproto_impl() (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+           n1: 4565 0x8B1019B: google::protobuf::GoogleOnceInitImpl(long*, google::protobuf::Closure*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+            n1: 4565 0x896FE53: _GLOBAL__sub_I_caffe.pb.cc (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+             n1: 4565 0x400F898: call_init.part.0 (dl-init.c:72)
+              n1: 4565 0x400F9A9: _dl_init (dl-init.c:30)
+               n0: 4565 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+          n0: 0 in 6 places, all below massif's threshold (1.00%)
+      n0: 0 in 1 place, below massif's threshold (1.00%)
+    n0: 2418 in 8 places, all below massif's threshold (1.00%)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 5200 0xCFCCB3E: __new_exitfn (cxa_atexit.c:101)
+  n2: 5200 0xCFCCBE7: __cxa_atexit (cxa_atexit.c:35)
+   n1: 4160 0x400F898: call_init.part.0 (dl-init.c:72)
+    n1: 4160 0x400F9A9: _dl_init (dl-init.c:30)
+     n0: 4160 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+   n0: 1040 in 1 place, below massif's threshold (1.00%)
+ n1: 5088 0x8B47220: google::protobuf::internal::GenericTypeHandler<google::protobuf::EnumValueDescriptorProto>::NewFromPrototype(google::protobuf::EnumValueDescriptorProto const*, google::protobuf::Arena*) [clone .isra.247] (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+  n2: 5088 0x8B574A5: google::protobuf::EnumDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+   n1: 5088 0x8B5BAC5: google::protobuf::DescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+    n1: 5088 0x8B5CFF5: google::protobuf::FileDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+     n1: 5088 0x8B0A1D2: google::protobuf::MessageLite::ParseFromArray(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+      n1: 5088 0x8B68D11: google::protobuf::EncodedDescriptorDatabase::Add(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+       n1: 5088 0x8B18598: google::protobuf::DescriptorPool::InternalAddGeneratedFile(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+        n1: 5088 0x89B4E92: caffe::protobuf_AddDesc_caffe_2eproto_impl() (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+         n1: 5088 0x8B1019B: google::protobuf::GoogleOnceInitImpl(long*, google::protobuf::Closure*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+          n1: 5088 0x896FE53: _GLOBAL__sub_I_caffe.pb.cc (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+           n1: 5088 0x400F898: call_init.part.0 (dl-init.c:72)
+            n1: 5088 0x400F9A9: _dl_init (dl-init.c:30)
+             n0: 5088 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n2: 5032 0xFDEE5DE: g_realloc (in /lib/x86_64-linux-gnu/libglib-2.0.so.0.5400.1)
+  n2: 4096 0xFB82D85: g_value_register_transform_func (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.5400.1)
+   n1: 4096 0xFB8493A: ??? (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.5400.1)
+    n1: 4096 0xFB5519F: ??? (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.5400.1)
+     n1: 4096 0x400F898: call_init.part.0 (dl-init.c:72)
+      n1: 4096 0x400F9A9: _dl_init (dl-init.c:30)
+       n0: 4096 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+   n0: 0 in 6 places, all below massif's threshold (1.00%)
+  n0: 936 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=37
+#-----------
+time=189966348
+mem_heap_B=355657
+mem_heap_extra_B=40767
+mem_stacks_B=0
+heap_tree=detailed
+n14: 355657 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 93632 0x1DF60D45: ??? (in /usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.4)
+  n2: 93632 0x1DF6222C: asn1_array2tree (in /usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.4)
+   n1: 81320 0x1ACF80D3: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.8)
+    n1: 81320 0x1ACD6A3F: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.8)
+     n1: 81320 0x400F898: call_init.part.0 (dl-init.c:72)
+      n1: 81320 0x400F9A9: _dl_init (dl-init.c:30)
+       n0: 81320 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+   n1: 12312 0x1ACF81BB: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.8)
+    n1: 12312 0x1ACD6A3F: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.8)
+     n1: 12312 0x400F898: call_init.part.0 (dl-init.c:72)
+      n1: 12312 0x400F9A9: _dl_init (dl-init.c:30)
+       n0: 12312 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+ n1: 72704 0xC789224: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x400F898: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x400F9A9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+ n1: 41008 0x8B4B4B8: google::protobuf::internal::GenericTypeHandler<google::protobuf::FieldDescriptorProto>::NewFromPrototype(google::protobuf::FieldDescriptorProto const*, google::protobuf::Arena*) [clone .isra.239] (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+  n1: 41008 0x8B52049: google::protobuf::RepeatedPtrField<google::protobuf::FieldDescriptorProto>::TypeHandler::Type* google::protobuf::internal::RepeatedPtrFieldBase::Add<google::protobuf::RepeatedPtrField<google::protobuf::FieldDescriptorProto>::TypeHandler>(google::protobuf::RepeatedPtrField<google::protobuf::FieldDescriptorProto>::TypeHandler::Type*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+   n2: 41008 0x8B5BC44: google::protobuf::DescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+    n1: 41008 0x8B5CFF5: google::protobuf::FileDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+     n1: 41008 0x8B0A1D2: google::protobuf::MessageLite::ParseFromArray(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+      n1: 41008 0x8B68D11: google::protobuf::EncodedDescriptorDatabase::Add(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+       n2: 41008 0x8B18598: google::protobuf::DescriptorPool::InternalAddGeneratedFile(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+        n1: 41008 0x89B4E92: caffe::protobuf_AddDesc_caffe_2eproto_impl() (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+         n1: 41008 0x8B1019B: google::protobuf::GoogleOnceInitImpl(long*, google::protobuf::Closure*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+          n1: 41008 0x896FE53: _GLOBAL__sub_I_caffe.pb.cc (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+           n1: 41008 0x400F898: call_init.part.0 (dl-init.c:72)
+            n1: 41008 0x400F9A9: _dl_init (dl-init.c:30)
+             n0: 41008 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+        n0: 0 in 7 places, all below massif's threshold (1.00%)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+ n4: 32928 0x89B8427: google::protobuf::internal::ArenaStringPtr::CreateInstanceNoArena(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+  n1: 14912 0x8B55B63: google::protobuf::FieldDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+   n2: 14912 0x8B5BC62: google::protobuf::DescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+    n1: 14912 0x8B5CFF5: google::protobuf::FileDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+     n1: 14912 0x8B0A1D2: google::protobuf::MessageLite::ParseFromArray(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+      n1: 14912 0x8B68D11: google::protobuf::EncodedDescriptorDatabase::Add(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+       n2: 14912 0x8B18598: google::protobuf::DescriptorPool::InternalAddGeneratedFile(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+        n1: 14912 0x89B4E92: caffe::protobuf_AddDesc_caffe_2eproto_impl() (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+         n1: 14912 0x8B1019B: google::protobuf::GoogleOnceInitImpl(long*, google::protobuf::Closure*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+          n1: 14912 0x896FE53: _GLOBAL__sub_I_caffe.pb.cc (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+           n1: 14912 0x400F898: call_init.part.0 (dl-init.c:72)
+            n1: 14912 0x400F9A9: _dl_init (dl-init.c:30)
+             n0: 14912 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+        n0: 0 in 7 places, all below massif's threshold (1.00%)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+  n0: 6816 in 9 places, all below massif's threshold (1.00%)
+  n1: 6272 0x8B55B0D: google::protobuf::FieldDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+   n1: 6272 0x8B5BC62: google::protobuf::DescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+    n1: 6272 0x8B5CFF5: google::protobuf::FileDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+     n1: 6272 0x8B0A1D2: google::protobuf::MessageLite::ParseFromArray(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+      n1: 6272 0x8B68D11: google::protobuf::EncodedDescriptorDatabase::Add(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+       n1: 6272 0x8B18598: google::protobuf::DescriptorPool::InternalAddGeneratedFile(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+        n1: 6272 0x89B4E92: caffe::protobuf_AddDesc_caffe_2eproto_impl() (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+         n1: 6272 0x8B1019B: google::protobuf::GoogleOnceInitImpl(long*, google::protobuf::Closure*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+          n1: 6272 0x896FE53: _GLOBAL__sub_I_caffe.pb.cc (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+           n1: 6272 0x400F898: call_init.part.0 (dl-init.c:72)
+            n1: 6272 0x400F9A9: _dl_init (dl-init.c:30)
+             n0: 6272 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+  n1: 4928 0x8B55B34: google::protobuf::FieldDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+   n2: 4928 0x8B5BC62: google::protobuf::DescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+    n1: 4928 0x8B5CFF5: google::protobuf::FileDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+     n1: 4928 0x8B0A1D2: google::protobuf::MessageLite::ParseFromArray(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+      n1: 4928 0x8B68D11: google::protobuf::EncodedDescriptorDatabase::Add(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+       n2: 4928 0x8B18598: google::protobuf::DescriptorPool::InternalAddGeneratedFile(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+        n1: 4928 0x89B4E92: caffe::protobuf_AddDesc_caffe_2eproto_impl() (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+         n1: 4928 0x8B1019B: google::protobuf::GoogleOnceInitImpl(long*, google::protobuf::Closure*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+          n1: 4928 0x896FE53: _GLOBAL__sub_I_caffe.pb.cc (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+           n1: 4928 0x400F898: call_init.part.0 (dl-init.c:72)
+            n1: 4928 0x400F9A9: _dl_init (dl-init.c:30)
+             n0: 4928 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+        n0: 0 in 6 places, all below massif's threshold (1.00%)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 23104 in 107 places, all below massif's threshold (1.00%)
+ n2: 17688 0xFDEE527: g_malloc (in /lib/x86_64-linux-gnu/libglib-2.0.so.0.5400.1)
+  n1: 16384 0xFDF8C5A: ??? (in /lib/x86_64-linux-gnu/libglib-2.0.so.0.5400.1)
+   n1: 16384 0x400F898: call_init.part.0 (dl-init.c:72)
+    n1: 16384 0x400F9A9: _dl_init (dl-init.c:30)
+     n0: 16384 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+  n0: 1304 in 5 places, all below massif's threshold (1.00%)
+ n2: 15776 0x8B5B498: google::protobuf::internal::GenericTypeHandler<google::protobuf::DescriptorProto>::NewFromPrototype(google::protobuf::DescriptorProto const*, google::protobuf::Arena*) [clone .isra.233] (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+  n1: 15776 0x8B5CFBE: google::protobuf::FileDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+   n1: 15776 0x8B0A1D2: google::protobuf::MessageLite::ParseFromArray(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+    n1: 15776 0x8B68D11: google::protobuf::EncodedDescriptorDatabase::Add(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+     n2: 15776 0x8B18598: google::protobuf::DescriptorPool::InternalAddGeneratedFile(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+      n1: 15776 0x89B4E92: caffe::protobuf_AddDesc_caffe_2eproto_impl() (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+       n1: 15776 0x8B1019B: google::protobuf::GoogleOnceInitImpl(long*, google::protobuf::Closure*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+        n1: 15776 0x896FE53: _GLOBAL__sub_I_caffe.pb.cc (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+         n1: 15776 0x400F898: call_init.part.0 (dl-init.c:72)
+          n1: 15776 0x400F9A9: _dl_init (dl-init.c:30)
+           n0: 15776 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+      n0: 0 in 7 places, all below massif's threshold (1.00%)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 14048 0xFDEE57F: g_malloc0 (in /lib/x86_64-linux-gnu/libglib-2.0.so.0.5400.1)
+  n0: 14048 in 15 places, all below massif's threshold (1.00%)
+ n1: 12384 0x148A94DE: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.34.0)
+  n0: 12384 in 6 places, all below massif's threshold (1.00%)
+ n2: 9472 0x8B0BDB6: google::protobuf::internal::RepeatedPtrFieldBase::Reserve(int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+  n1: 6016 0x8B5207C: google::protobuf::RepeatedPtrField<google::protobuf::FieldDescriptorProto>::TypeHandler::Type* google::protobuf::internal::RepeatedPtrFieldBase::Add<google::protobuf::RepeatedPtrField<google::protobuf::FieldDescriptorProto>::TypeHandler>(google::protobuf::RepeatedPtrField<google::protobuf::FieldDescriptorProto>::TypeHandler::Type*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+   n2: 6016 0x8B5BC44: google::protobuf::DescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+    n1: 6016 0x8B5CFF5: google::protobuf::FileDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+     n1: 6016 0x8B0A1D2: google::protobuf::MessageLite::ParseFromArray(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+      n1: 6016 0x8B68D11: google::protobuf::EncodedDescriptorDatabase::Add(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+       n2: 6016 0x8B18598: google::protobuf::DescriptorPool::InternalAddGeneratedFile(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+        n1: 6016 0x89B4E92: caffe::protobuf_AddDesc_caffe_2eproto_impl() (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+         n1: 6016 0x8B1019B: google::protobuf::GoogleOnceInitImpl(long*, google::protobuf::Closure*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+          n1: 6016 0x896FE53: _GLOBAL__sub_I_caffe.pb.cc (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+           n1: 6016 0x400F898: call_init.part.0 (dl-init.c:72)
+            n1: 6016 0x400F9A9: _dl_init (dl-init.c:30)
+             n0: 6016 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+        n0: 0 in 7 places, all below massif's threshold (1.00%)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+  n0: 3456 in 7 places, all below massif's threshold (1.00%)
+ n2: 7113 0xC81BE98: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 7076 0xC81C86E: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace_aux(unsigned long, unsigned long, unsigned long, char) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n2: 7076 0x8B153ED: google::protobuf::internal::WireFormatLite::ReadBytes(google::protobuf::io::CodedInputStream*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+    n1: 4627 0x8B5584B: google::protobuf::FieldDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+     n2: 4627 0x8B5BC62: google::protobuf::DescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+      n1: 4627 0x8B5CFF5: google::protobuf::FileDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+       n1: 4627 0x8B0A1D2: google::protobuf::MessageLite::ParseFromArray(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+        n1: 4627 0x8B68D11: google::protobuf::EncodedDescriptorDatabase::Add(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+         n2: 4627 0x8B18598: google::protobuf::DescriptorPool::InternalAddGeneratedFile(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+          n1: 4627 0x89B4E92: caffe::protobuf_AddDesc_caffe_2eproto_impl() (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+           n1: 4627 0x8B1019B: google::protobuf::GoogleOnceInitImpl(long*, google::protobuf::Closure*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+            n1: 4627 0x896FE53: _GLOBAL__sub_I_caffe.pb.cc (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+             n1: 4627 0x400F898: call_init.part.0 (dl-init.c:72)
+              n1: 4627 0x400F9A9: _dl_init (dl-init.c:30)
+               n0: 4627 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+          n0: 0 in 6 places, all below massif's threshold (1.00%)
+      n0: 0 in 1 place, below massif's threshold (1.00%)
+    n0: 2449 in 8 places, all below massif's threshold (1.00%)
+  n0: 37 in 1 place, below massif's threshold (1.00%)
+ n1: 5568 0x8B47220: google::protobuf::internal::GenericTypeHandler<google::protobuf::EnumValueDescriptorProto>::NewFromPrototype(google::protobuf::EnumValueDescriptorProto const*, google::protobuf::Arena*) [clone .isra.247] (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+  n2: 5568 0x8B574A5: google::protobuf::EnumDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+   n1: 5232 0x8B5BAC5: google::protobuf::DescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+    n1: 5232 0x8B5CFF5: google::protobuf::FileDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+     n1: 5232 0x8B0A1D2: google::protobuf::MessageLite::ParseFromArray(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+      n1: 5232 0x8B68D11: google::protobuf::EncodedDescriptorDatabase::Add(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+       n1: 5232 0x8B18598: google::protobuf::DescriptorPool::InternalAddGeneratedFile(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+        n1: 5232 0x89B4E92: caffe::protobuf_AddDesc_caffe_2eproto_impl() (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+         n1: 5232 0x8B1019B: google::protobuf::GoogleOnceInitImpl(long*, google::protobuf::Closure*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+          n1: 5232 0x896FE53: _GLOBAL__sub_I_caffe.pb.cc (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+           n1: 5232 0x400F898: call_init.part.0 (dl-init.c:72)
+            n1: 5232 0x400F9A9: _dl_init (dl-init.c:30)
+             n0: 5232 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+   n0: 336 in 1 place, below massif's threshold (1.00%)
+ n1: 5200 0xCFCCB3E: __new_exitfn (cxa_atexit.c:101)
+  n2: 5200 0xCFCCBE7: __cxa_atexit (cxa_atexit.c:35)
+   n1: 4160 0x400F898: call_init.part.0 (dl-init.c:72)
+    n1: 4160 0x400F9A9: _dl_init (dl-init.c:30)
+     n0: 4160 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+   n0: 1040 in 1 place, below massif's threshold (1.00%)
+ n2: 5032 0xFDEE5DE: g_realloc (in /lib/x86_64-linux-gnu/libglib-2.0.so.0.5400.1)
+  n2: 4096 0xFB82D85: g_value_register_transform_func (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.5400.1)
+   n1: 4096 0xFB8493A: ??? (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.5400.1)
+    n1: 4096 0xFB5519F: ??? (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.5400.1)
+     n1: 4096 0x400F898: call_init.part.0 (dl-init.c:72)
+      n1: 4096 0x400F9A9: _dl_init (dl-init.c:30)
+       n0: 4096 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+   n0: 0 in 6 places, all below massif's threshold (1.00%)
+  n0: 936 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=38
+#-----------
+time=190022476
+mem_heap_B=358925
+mem_heap_extra_B=41579
+mem_stacks_B=0
+heap_tree=detailed
+n15: 358925 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 93632 0x1DF60D45: ??? (in /usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.4)
+  n2: 93632 0x1DF6222C: asn1_array2tree (in /usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.4)
+   n1: 81320 0x1ACF80D3: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.8)
+    n1: 81320 0x1ACD6A3F: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.8)
+     n1: 81320 0x400F898: call_init.part.0 (dl-init.c:72)
+      n1: 81320 0x400F9A9: _dl_init (dl-init.c:30)
+       n0: 81320 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+   n1: 12312 0x1ACF81BB: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.8)
+    n1: 12312 0x1ACD6A3F: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.8)
+     n1: 12312 0x400F898: call_init.part.0 (dl-init.c:72)
+      n1: 12312 0x400F9A9: _dl_init (dl-init.c:30)
+       n0: 12312 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+ n1: 72704 0xC789224: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x400F898: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x400F9A9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+ n1: 41008 0x8B4B4B8: google::protobuf::internal::GenericTypeHandler<google::protobuf::FieldDescriptorProto>::NewFromPrototype(google::protobuf::FieldDescriptorProto const*, google::protobuf::Arena*) [clone .isra.239] (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+  n1: 41008 0x8B52049: google::protobuf::RepeatedPtrField<google::protobuf::FieldDescriptorProto>::TypeHandler::Type* google::protobuf::internal::RepeatedPtrFieldBase::Add<google::protobuf::RepeatedPtrField<google::protobuf::FieldDescriptorProto>::TypeHandler>(google::protobuf::RepeatedPtrField<google::protobuf::FieldDescriptorProto>::TypeHandler::Type*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+   n2: 41008 0x8B5BC44: google::protobuf::DescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+    n1: 41008 0x8B5CFF5: google::protobuf::FileDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+     n1: 41008 0x8B0A1D2: google::protobuf::MessageLite::ParseFromArray(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+      n1: 41008 0x8B68D11: google::protobuf::EncodedDescriptorDatabase::Add(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+       n2: 41008 0x8B18598: google::protobuf::DescriptorPool::InternalAddGeneratedFile(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+        n1: 41008 0x89B4E92: caffe::protobuf_AddDesc_caffe_2eproto_impl() (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+         n1: 41008 0x8B1019B: google::protobuf::GoogleOnceInitImpl(long*, google::protobuf::Closure*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+          n1: 41008 0x896FE53: _GLOBAL__sub_I_caffe.pb.cc (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+           n1: 41008 0x400F898: call_init.part.0 (dl-init.c:72)
+            n1: 41008 0x400F9A9: _dl_init (dl-init.c:30)
+             n0: 41008 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+        n0: 0 in 7 places, all below massif's threshold (1.00%)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+ n4: 32928 0x89B8427: google::protobuf::internal::ArenaStringPtr::CreateInstanceNoArena(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+  n1: 14912 0x8B55B63: google::protobuf::FieldDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+   n2: 14912 0x8B5BC62: google::protobuf::DescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+    n1: 14912 0x8B5CFF5: google::protobuf::FileDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+     n1: 14912 0x8B0A1D2: google::protobuf::MessageLite::ParseFromArray(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+      n1: 14912 0x8B68D11: google::protobuf::EncodedDescriptorDatabase::Add(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+       n2: 14912 0x8B18598: google::protobuf::DescriptorPool::InternalAddGeneratedFile(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+        n1: 14912 0x89B4E92: caffe::protobuf_AddDesc_caffe_2eproto_impl() (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+         n1: 14912 0x8B1019B: google::protobuf::GoogleOnceInitImpl(long*, google::protobuf::Closure*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+          n1: 14912 0x896FE53: _GLOBAL__sub_I_caffe.pb.cc (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+           n1: 14912 0x400F898: call_init.part.0 (dl-init.c:72)
+            n1: 14912 0x400F9A9: _dl_init (dl-init.c:30)
+             n0: 14912 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+        n0: 0 in 7 places, all below massif's threshold (1.00%)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+  n0: 6816 in 9 places, all below massif's threshold (1.00%)
+  n1: 6272 0x8B55B0D: google::protobuf::FieldDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+   n1: 6272 0x8B5BC62: google::protobuf::DescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+    n1: 6272 0x8B5CFF5: google::protobuf::FileDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+     n1: 6272 0x8B0A1D2: google::protobuf::MessageLite::ParseFromArray(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+      n1: 6272 0x8B68D11: google::protobuf::EncodedDescriptorDatabase::Add(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+       n1: 6272 0x8B18598: google::protobuf::DescriptorPool::InternalAddGeneratedFile(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+        n1: 6272 0x89B4E92: caffe::protobuf_AddDesc_caffe_2eproto_impl() (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+         n1: 6272 0x8B1019B: google::protobuf::GoogleOnceInitImpl(long*, google::protobuf::Closure*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+          n1: 6272 0x896FE53: _GLOBAL__sub_I_caffe.pb.cc (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+           n1: 6272 0x400F898: call_init.part.0 (dl-init.c:72)
+            n1: 6272 0x400F9A9: _dl_init (dl-init.c:30)
+             n0: 6272 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+  n1: 4928 0x8B55B34: google::protobuf::FieldDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+   n2: 4928 0x8B5BC62: google::protobuf::DescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+    n1: 4928 0x8B5CFF5: google::protobuf::FileDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+     n1: 4928 0x8B0A1D2: google::protobuf::MessageLite::ParseFromArray(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+      n1: 4928 0x8B68D11: google::protobuf::EncodedDescriptorDatabase::Add(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+       n2: 4928 0x8B18598: google::protobuf::DescriptorPool::InternalAddGeneratedFile(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+        n1: 4928 0x89B4E92: caffe::protobuf_AddDesc_caffe_2eproto_impl() (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+         n1: 4928 0x8B1019B: google::protobuf::GoogleOnceInitImpl(long*, google::protobuf::Closure*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+          n1: 4928 0x896FE53: _GLOBAL__sub_I_caffe.pb.cc (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+           n1: 4928 0x400F898: call_init.part.0 (dl-init.c:72)
+            n1: 4928 0x400F9A9: _dl_init (dl-init.c:30)
+             n0: 4928 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+        n0: 0 in 6 places, all below massif's threshold (1.00%)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 20458 in 106 places, all below massif's threshold (1.00%)
+ n2: 17688 0xFDEE527: g_malloc (in /lib/x86_64-linux-gnu/libglib-2.0.so.0.5400.1)
+  n1: 16384 0xFDF8C5A: ??? (in /lib/x86_64-linux-gnu/libglib-2.0.so.0.5400.1)
+   n1: 16384 0x400F898: call_init.part.0 (dl-init.c:72)
+    n1: 16384 0x400F9A9: _dl_init (dl-init.c:30)
+     n0: 16384 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+  n0: 1304 in 5 places, all below massif's threshold (1.00%)
+ n2: 15776 0x8B5B498: google::protobuf::internal::GenericTypeHandler<google::protobuf::DescriptorProto>::NewFromPrototype(google::protobuf::DescriptorProto const*, google::protobuf::Arena*) [clone .isra.233] (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+  n1: 15776 0x8B5CFBE: google::protobuf::FileDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+   n1: 15776 0x8B0A1D2: google::protobuf::MessageLite::ParseFromArray(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+    n1: 15776 0x8B68D11: google::protobuf::EncodedDescriptorDatabase::Add(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+     n2: 15776 0x8B18598: google::protobuf::DescriptorPool::InternalAddGeneratedFile(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+      n1: 15776 0x89B4E92: caffe::protobuf_AddDesc_caffe_2eproto_impl() (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+       n1: 15776 0x8B1019B: google::protobuf::GoogleOnceInitImpl(long*, google::protobuf::Closure*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+        n1: 15776 0x896FE53: _GLOBAL__sub_I_caffe.pb.cc (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+         n1: 15776 0x400F898: call_init.part.0 (dl-init.c:72)
+          n1: 15776 0x400F9A9: _dl_init (dl-init.c:30)
+           n0: 15776 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+      n0: 0 in 7 places, all below massif's threshold (1.00%)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 14048 0xFDEE57F: g_malloc0 (in /lib/x86_64-linux-gnu/libglib-2.0.so.0.5400.1)
+  n0: 14048 in 15 places, all below massif's threshold (1.00%)
+ n1: 12384 0x148A94DE: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.34.0)
+  n0: 12384 in 6 places, all below massif's threshold (1.00%)
+ n2: 9472 0x8B0BDB6: google::protobuf::internal::RepeatedPtrFieldBase::Reserve(int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+  n1: 6016 0x8B5207C: google::protobuf::RepeatedPtrField<google::protobuf::FieldDescriptorProto>::TypeHandler::Type* google::protobuf::internal::RepeatedPtrFieldBase::Add<google::protobuf::RepeatedPtrField<google::protobuf::FieldDescriptorProto>::TypeHandler>(google::protobuf::RepeatedPtrField<google::protobuf::FieldDescriptorProto>::TypeHandler::Type*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+   n2: 6016 0x8B5BC44: google::protobuf::DescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+    n1: 6016 0x8B5CFF5: google::protobuf::FileDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+     n1: 6016 0x8B0A1D2: google::protobuf::MessageLite::ParseFromArray(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+      n1: 6016 0x8B68D11: google::protobuf::EncodedDescriptorDatabase::Add(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+       n2: 6016 0x8B18598: google::protobuf::DescriptorPool::InternalAddGeneratedFile(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+        n1: 6016 0x89B4E92: caffe::protobuf_AddDesc_caffe_2eproto_impl() (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+         n1: 6016 0x8B1019B: google::protobuf::GoogleOnceInitImpl(long*, google::protobuf::Closure*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+          n1: 6016 0x896FE53: _GLOBAL__sub_I_caffe.pb.cc (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+           n1: 6016 0x400F898: call_init.part.0 (dl-init.c:72)
+            n1: 6016 0x400F9A9: _dl_init (dl-init.c:30)
+             n0: 6016 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+        n0: 0 in 7 places, all below massif's threshold (1.00%)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+  n0: 3456 in 7 places, all below massif's threshold (1.00%)
+ n2: 7107 0xC81BE98: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 7076 0xC81C86E: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace_aux(unsigned long, unsigned long, unsigned long, char) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n2: 7076 0x8B153ED: google::protobuf::internal::WireFormatLite::ReadBytes(google::protobuf::io::CodedInputStream*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+    n1: 4627 0x8B5584B: google::protobuf::FieldDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+     n2: 4627 0x8B5BC62: google::protobuf::DescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+      n1: 4627 0x8B5CFF5: google::protobuf::FileDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+       n1: 4627 0x8B0A1D2: google::protobuf::MessageLite::ParseFromArray(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+        n1: 4627 0x8B68D11: google::protobuf::EncodedDescriptorDatabase::Add(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+         n2: 4627 0x8B18598: google::protobuf::DescriptorPool::InternalAddGeneratedFile(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+          n1: 4627 0x89B4E92: caffe::protobuf_AddDesc_caffe_2eproto_impl() (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+           n1: 4627 0x8B1019B: google::protobuf::GoogleOnceInitImpl(long*, google::protobuf::Closure*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+            n1: 4627 0x896FE53: _GLOBAL__sub_I_caffe.pb.cc (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+             n1: 4627 0x400F898: call_init.part.0 (dl-init.c:72)
+              n1: 4627 0x400F9A9: _dl_init (dl-init.c:30)
+               n0: 4627 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+          n0: 0 in 6 places, all below massif's threshold (1.00%)
+      n0: 0 in 1 place, below massif's threshold (1.00%)
+    n0: 2449 in 8 places, all below massif's threshold (1.00%)
+  n0: 31 in 1 place, below massif's threshold (1.00%)
+ n2: 5920 0x8B61CAD: std::_Rb_tree_iterator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<void const*, int> > > std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<void const*, int> >, std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<void const*, int> > >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<void const*, int> > > >::_M_insert_<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<void const*, int> >, std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<void const*, int> >, std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<void const*, int> > >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<void const*, int> > > >::_Alloc_node>(std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<void const*, int> >&&, std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<void const*, int> >, std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<void const*, int> > >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<void const*, int> > > >::_Alloc_node&) [clone .isra.253] (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+  n2: 5840 0x8B67D15: google::protobuf::SimpleDescriptorDatabase::DescriptorIndex<std::pair<void const*, int> >::AddSymbol(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::pair<void const*, int>) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+   n1: 5760 0x8B681AD: google::protobuf::SimpleDescriptorDatabase::DescriptorIndex<std::pair<void const*, int> >::AddFile(google::protobuf::FileDescriptorProto const&, std::pair<void const*, int>) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+    n1: 5760 0x8B68D29: google::protobuf::EncodedDescriptorDatabase::Add(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+     n2: 5760 0x8B18598: google::protobuf::DescriptorPool::InternalAddGeneratedFile(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+      n1: 4800 0x89B4E92: caffe::protobuf_AddDesc_caffe_2eproto_impl() (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+       n1: 4800 0x8B1019B: google::protobuf::GoogleOnceInitImpl(long*, google::protobuf::Closure*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+        n1: 4800 0x896FE53: _GLOBAL__sub_I_caffe.pb.cc (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+         n1: 4800 0x400F898: call_init.part.0 (dl-init.c:72)
+          n1: 4800 0x400F9A9: _dl_init (dl-init.c:30)
+           n0: 4800 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+      n0: 960 in 7 places, all below massif's threshold (1.00%)
+   n0: 80 in 1 place, below massif's threshold (1.00%)
+  n0: 80 in 1 place, below massif's threshold (1.00%)
+ n1: 5568 0x8B47220: google::protobuf::internal::GenericTypeHandler<google::protobuf::EnumValueDescriptorProto>::NewFromPrototype(google::protobuf::EnumValueDescriptorProto const*, google::protobuf::Arena*) [clone .isra.247] (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+  n2: 5568 0x8B574A5: google::protobuf::EnumDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+   n1: 5232 0x8B5BAC5: google::protobuf::DescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+    n1: 5232 0x8B5CFF5: google::protobuf::FileDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+     n1: 5232 0x8B0A1D2: google::protobuf::MessageLite::ParseFromArray(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+      n1: 5232 0x8B68D11: google::protobuf::EncodedDescriptorDatabase::Add(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+       n1: 5232 0x8B18598: google::protobuf::DescriptorPool::InternalAddGeneratedFile(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+        n1: 5232 0x89B4E92: caffe::protobuf_AddDesc_caffe_2eproto_impl() (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+         n1: 5232 0x8B1019B: google::protobuf::GoogleOnceInitImpl(long*, google::protobuf::Closure*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+          n1: 5232 0x896FE53: _GLOBAL__sub_I_caffe.pb.cc (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+           n1: 5232 0x400F898: call_init.part.0 (dl-init.c:72)
+            n1: 5232 0x400F9A9: _dl_init (dl-init.c:30)
+             n0: 5232 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+   n0: 336 in 1 place, below massif's threshold (1.00%)
+ n1: 5200 0xCFCCB3E: __new_exitfn (cxa_atexit.c:101)
+  n2: 5200 0xCFCCBE7: __cxa_atexit (cxa_atexit.c:35)
+   n1: 4160 0x400F898: call_init.part.0 (dl-init.c:72)
+    n1: 4160 0x400F9A9: _dl_init (dl-init.c:30)
+     n0: 4160 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+   n0: 1040 in 1 place, below massif's threshold (1.00%)
+ n2: 5032 0xFDEE5DE: g_realloc (in /lib/x86_64-linux-gnu/libglib-2.0.so.0.5400.1)
+  n2: 4096 0xFB82D85: g_value_register_transform_func (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.5400.1)
+   n1: 4096 0xFB8493A: ??? (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.5400.1)
+    n1: 4096 0xFB5519F: ??? (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.5400.1)
+     n1: 4096 0x400F898: call_init.part.0 (dl-init.c:72)
+      n1: 4096 0x400F9A9: _dl_init (dl-init.c:30)
+       n0: 4096 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+   n0: 0 in 6 places, all below massif's threshold (1.00%)
+  n0: 936 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=39
+#-----------
+time=190119439
+mem_heap_B=292416
+mem_heap_extra_B=28384
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=190192179
+mem_heap_B=245664
+mem_heap_extra_B=19280
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=190265245
+mem_heap_B=261914
+mem_heap_extra_B=22334
+mem_stacks_B=0
+heap_tree=detailed
+n11: 261914 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 93632 0x1DF60D45: ??? (in /usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.4)
+  n2: 93632 0x1DF6222C: asn1_array2tree (in /usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.4)
+   n1: 81320 0x1ACF80D3: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.8)
+    n1: 81320 0x1ACD6A3F: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.8)
+     n1: 81320 0x400F898: call_init.part.0 (dl-init.c:72)
+      n1: 81320 0x400F9A9: _dl_init (dl-init.c:30)
+       n0: 81320 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+   n1: 12312 0x1ACF81BB: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.8)
+    n1: 12312 0x1ACD6A3F: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.8)
+     n1: 12312 0x400F898: call_init.part.0 (dl-init.c:72)
+      n1: 12312 0x400F9A9: _dl_init (dl-init.c:30)
+       n0: 12312 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+ n1: 72704 0xC789224: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x400F898: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x400F9A9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+ n0: 24818 in 111 places, all below massif's threshold (1.00%)
+ n2: 17688 0xFDEE527: g_malloc (in /lib/x86_64-linux-gnu/libglib-2.0.so.0.5400.1)
+  n1: 16384 0xFDF8C5A: ??? (in /lib/x86_64-linux-gnu/libglib-2.0.so.0.5400.1)
+   n1: 16384 0x400F898: call_init.part.0 (dl-init.c:72)
+    n1: 16384 0x400F9A9: _dl_init (dl-init.c:30)
+     n0: 16384 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+  n0: 1304 in 5 places, all below massif's threshold (1.00%)
+ n1: 14048 0xFDEE57F: g_malloc0 (in /lib/x86_64-linux-gnu/libglib-2.0.so.0.5400.1)
+  n0: 14048 in 15 places, all below massif's threshold (1.00%)
+ n1: 12384 0x148A94DE: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.34.0)
+  n0: 12384 in 6 places, all below massif's threshold (1.00%)
+ n2: 6720 0x8B61CAD: std::_Rb_tree_iterator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<void const*, int> > > std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<void const*, int> >, std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<void const*, int> > >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<void const*, int> > > >::_M_insert_<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<void const*, int> >, std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<void const*, int> >, std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<void const*, int> > >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<void const*, int> > > >::_Alloc_node>(std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<void const*, int> >&&, std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<void const*, int> >, std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<void const*, int> > >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<void const*, int> > > >::_Alloc_node&) [clone .isra.253] (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+  n2: 6640 0x8B67D15: google::protobuf::SimpleDescriptorDatabase::DescriptorIndex<std::pair<void const*, int> >::AddSymbol(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::pair<void const*, int>) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+   n1: 6400 0x8B681AD: google::protobuf::SimpleDescriptorDatabase::DescriptorIndex<std::pair<void const*, int> >::AddFile(google::protobuf::FileDescriptorProto const&, std::pair<void const*, int>) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+    n1: 6400 0x8B68D29: google::protobuf::EncodedDescriptorDatabase::Add(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+     n2: 6400 0x8B18598: google::protobuf::DescriptorPool::InternalAddGeneratedFile(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+      n1: 5440 0x89B4E92: caffe::protobuf_AddDesc_caffe_2eproto_impl() (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+       n1: 5440 0x8B1019B: google::protobuf::GoogleOnceInitImpl(long*, google::protobuf::Closure*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+        n1: 5440 0x896FE53: _GLOBAL__sub_I_caffe.pb.cc (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+         n1: 5440 0x400F898: call_init.part.0 (dl-init.c:72)
+          n1: 5440 0x400F9A9: _dl_init (dl-init.c:30)
+           n0: 5440 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+      n0: 960 in 7 places, all below massif's threshold (1.00%)
+   n0: 240 in 1 place, below massif's threshold (1.00%)
+  n0: 80 in 1 place, below massif's threshold (1.00%)
+ n1: 6240 0xCFCCB3E: __new_exitfn (cxa_atexit.c:101)
+  n2: 6240 0xCFCCBE7: __cxa_atexit (cxa_atexit.c:35)
+   n1: 5200 0x400F898: call_init.part.0 (dl-init.c:72)
+    n1: 5200 0x400F9A9: _dl_init (dl-init.c:30)
+     n0: 5200 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+   n0: 1040 in 1 place, below massif's threshold (1.00%)
+ n2: 5032 0xFDEE5DE: g_realloc (in /lib/x86_64-linux-gnu/libglib-2.0.so.0.5400.1)
+  n2: 4096 0xFB82D85: g_value_register_transform_func (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.5400.1)
+   n1: 4096 0xFB8493A: ??? (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.5400.1)
+    n1: 4096 0xFB5519F: ??? (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.5400.1)
+     n1: 4096 0x400F898: call_init.part.0 (dl-init.c:72)
+      n1: 4096 0x400F9A9: _dl_init (dl-init.c:30)
+       n0: 4096 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+   n0: 0 in 6 places, all below massif's threshold (1.00%)
+  n0: 936 in 4 places, all below massif's threshold (1.00%)
+ n1: 4840 0x8B4B4B8: google::protobuf::internal::GenericTypeHandler<google::protobuf::FieldDescriptorProto>::NewFromPrototype(google::protobuf::FieldDescriptorProto const*, google::protobuf::Arena*) [clone .isra.239] (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+  n1: 4840 0x8B52049: google::protobuf::RepeatedPtrField<google::protobuf::FieldDescriptorProto>::TypeHandler::Type* google::protobuf::internal::RepeatedPtrFieldBase::Add<google::protobuf::RepeatedPtrField<google::protobuf::FieldDescriptorProto>::TypeHandler>(google::protobuf::RepeatedPtrField<google::protobuf::FieldDescriptorProto>::TypeHandler::Type*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+   n2: 4840 0x8B5BC44: google::protobuf::DescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+    n1: 4488 0x8B5CFF5: google::protobuf::FileDescriptorProto::MergePartialFromCodedStream(google::protobuf::io::CodedInputStream*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+     n1: 4488 0x8B0A1D2: google::protobuf::MessageLite::ParseFromArray(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+      n1: 4488 0x8B68D11: google::protobuf::EncodedDescriptorDatabase::Add(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+       n2: 4488 0x8B18598: google::protobuf::DescriptorPool::InternalAddGeneratedFile(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+        n1: 4488 0x8B46302: google::protobuf::protobuf_AddDesc_google_2fprotobuf_2fdescriptor_2eproto_impl() (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+         n1: 4488 0x8B1019B: google::protobuf::GoogleOnceInitImpl(long*, google::protobuf::Closure*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+          n1: 4488 0x8970443: _GLOBAL__sub_I_descriptor.pb.cc (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+           n1: 4488 0x400F898: call_init.part.0 (dl-init.c:72)
+            n1: 4488 0x400F9A9: _dl_init (dl-init.c:30)
+             n0: 4488 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+        n0: 0 in 8 places, all below massif's threshold (1.00%)
+    n0: 352 in 1 place, below massif's threshold (1.00%)
+ n1: 3808 0x89B8427: google::protobuf::internal::ArenaStringPtr::CreateInstanceNoArena(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+  n0: 3808 in 12 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=42
+#-----------
+time=190338438
+mem_heap_B=278596
+mem_heap_extra_B=25804
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=190411110
+mem_heap_B=260396
+mem_heap_extra_B=22092
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=190494418
+mem_heap_B=250215
+mem_heap_extra_B=19961
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=190605694
+mem_heap_B=252003
+mem_heap_extra_B=20077
+mem_stacks_B=0
+heap_tree=detailed
+n9: 252003 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 93632 0x1DF60D45: ??? (in /usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.4)
+  n2: 93632 0x1DF6222C: asn1_array2tree (in /usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.4)
+   n1: 81320 0x1ACF80D3: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.8)
+    n1: 81320 0x1ACD6A3F: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.8)
+     n1: 81320 0x400F898: call_init.part.0 (dl-init.c:72)
+      n1: 81320 0x400F9A9: _dl_init (dl-init.c:30)
+       n0: 81320 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+   n1: 12312 0x1ACF81BB: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.8)
+    n1: 12312 0x1ACD6A3F: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.8)
+     n1: 12312 0x400F898: call_init.part.0 (dl-init.c:72)
+      n1: 12312 0x400F9A9: _dl_init (dl-init.c:30)
+       n0: 12312 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+ n1: 72704 0xC789224: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x400F898: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x400F9A9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+ n0: 19875 in 118 places, all below massif's threshold (1.00%)
+ n2: 17688 0xFDEE527: g_malloc (in /lib/x86_64-linux-gnu/libglib-2.0.so.0.5400.1)
+  n1: 16384 0xFDF8C5A: ??? (in /lib/x86_64-linux-gnu/libglib-2.0.so.0.5400.1)
+   n1: 16384 0x400F898: call_init.part.0 (dl-init.c:72)
+    n1: 16384 0x400F9A9: _dl_init (dl-init.c:30)
+     n0: 16384 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+  n0: 1304 in 5 places, all below massif's threshold (1.00%)
+ n1: 14048 0xFDEE57F: g_malloc0 (in /lib/x86_64-linux-gnu/libglib-2.0.so.0.5400.1)
+  n0: 14048 in 15 places, all below massif's threshold (1.00%)
+ n1: 12384 0x148A94DE: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.34.0)
+  n0: 12384 in 6 places, all below massif's threshold (1.00%)
+ n2: 8320 0x8B61CAD: std::_Rb_tree_iterator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<void const*, int> > > std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<void const*, int> >, std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<void const*, int> > >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<void const*, int> > > >::_M_insert_<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<void const*, int> >, std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<void const*, int> >, std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<void const*, int> > >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<void const*, int> > > >::_Alloc_node>(std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<void const*, int> >&&, std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<void const*, int> >, std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<void const*, int> > >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<void const*, int> > > >::_Alloc_node&) [clone .isra.253] (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+  n2: 8240 0x8B67D15: google::protobuf::SimpleDescriptorDatabase::DescriptorIndex<std::pair<void const*, int> >::AddSymbol(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::pair<void const*, int>) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+   n1: 8000 0x8B681AD: google::protobuf::SimpleDescriptorDatabase::DescriptorIndex<std::pair<void const*, int> >::AddFile(google::protobuf::FileDescriptorProto const&, std::pair<void const*, int>) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+    n1: 8000 0x8B68D29: google::protobuf::EncodedDescriptorDatabase::Add(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+     n2: 8000 0x8B18598: google::protobuf::DescriptorPool::InternalAddGeneratedFile(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+      n1: 5440 0x89B4E92: caffe::protobuf_AddDesc_caffe_2eproto_impl() (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+       n1: 5440 0x8B1019B: google::protobuf::GoogleOnceInitImpl(long*, google::protobuf::Closure*) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+        n1: 5440 0x896FE53: _GLOBAL__sub_I_caffe.pb.cc (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+         n1: 5440 0x400F898: call_init.part.0 (dl-init.c:72)
+          n1: 5440 0x400F9A9: _dl_init (dl-init.c:30)
+           n0: 5440 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+      n0: 2560 in 8 places, all below massif's threshold (1.00%)
+   n0: 240 in 1 place, below massif's threshold (1.00%)
+  n0: 80 in 1 place, below massif's threshold (1.00%)
+ n1: 8320 0xCFCCB3E: __new_exitfn (cxa_atexit.c:101)
+  n2: 8320 0xCFCCBE7: __cxa_atexit (cxa_atexit.c:35)
+   n1: 6240 0x400F898: call_init.part.0 (dl-init.c:72)
+    n1: 6240 0x400F9A9: _dl_init (dl-init.c:30)
+     n0: 6240 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+   n0: 2080 in 2 places, all below massif's threshold (1.00%)
+ n2: 5032 0xFDEE5DE: g_realloc (in /lib/x86_64-linux-gnu/libglib-2.0.so.0.5400.1)
+  n2: 4096 0xFB82D85: g_value_register_transform_func (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.5400.1)
+   n1: 4096 0xFB8493A: ??? (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.5400.1)
+    n1: 4096 0xFB5519F: ??? (in /usr/lib/x86_64-linux-gnu/libgobject-2.0.so.0.5400.1)
+     n1: 4096 0x400F898: call_init.part.0 (dl-init.c:72)
+      n1: 4096 0x400F9A9: _dl_init (dl-init.c:30)
+       n0: 4096 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+   n0: 0 in 6 places, all below massif's threshold (1.00%)
+  n0: 936 in 4 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=46
+#-----------
+time=190736434
+mem_heap_B=254083
+mem_heap_extra_B=20093
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=190851209
+mem_heap_B=255195
+mem_heap_extra_B=20173
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=190911608
+mem_heap_B=256399
+mem_heap_extra_B=20353
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=190990991
+mem_heap_B=284084
+mem_heap_extra_B=20428
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=197817975
+mem_heap_B=553865
+mem_heap_extra_B=20567
+mem_stacks_B=0
+heap_tree=detailed
+n11: 553865 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 264297 0xC261AD9: cv::fastMalloc(unsigned long) (in /usr/local/lib/libopencv_core.so.3.3.1)
+  n1: 262144 0xC39B4F4: cv::Mat::create(int, int const*, int) (in /usr/local/lib/libopencv_core.so.3.3.1)
+   n1: 262144 0xAFA4D87: cv::imread_(cv::String const&, int, int, cv::Mat*) (in /usr/local/lib/libopencv_imgcodecs.so.3.3.1)
+    n1: 262144 0xAFA67C3: cv::imread(cv::String const&, int) (in /usr/local/lib/libopencv_imgcodecs.so.3.3.1)
+     n0: 262144 0x10A389: main (main.cpp:28)
+  n0: 2153 in 2 places, all below massif's threshold (1.00%)
+ n1: 93632 0x1DF60D45: ??? (in /usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.4)
+  n2: 93632 0x1DF6222C: asn1_array2tree (in /usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.4)
+   n1: 81320 0x1ACF80D3: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.8)
+    n1: 81320 0x1ACD6A3F: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.8)
+     n1: 81320 0x400F898: call_init.part.0 (dl-init.c:72)
+      n1: 81320 0x400F9A9: _dl_init (dl-init.c:30)
+       n0: 81320 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+   n1: 12312 0x1ACF81BB: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.8)
+    n1: 12312 0x1ACD6A3F: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.8)
+     n1: 12312 0x400F898: call_init.part.0 (dl-init.c:72)
+      n1: 12312 0x400F9A9: _dl_init (dl-init.c:30)
+       n0: 12312 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+ n1: 72704 0xC789224: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x400F898: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x400F9A9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+ n0: 29630 in 129 places, all below massif's threshold (1.00%)
+ n2: 22181 0x127C25CE: ??? (in /usr/lib/x86_64-linux-gnu/libjpeg.so.62.2.0)
+  n1: 16135 0x127B1A01: ??? (in /usr/lib/x86_64-linux-gnu/libjpeg.so.62.2.0)
+   n1: 16135 0x127B2962: ??? (in /usr/lib/x86_64-linux-gnu/libjpeg.so.62.2.0)
+    n1: 16135 0x127B0C77: ??? (in /usr/lib/x86_64-linux-gnu/libjpeg.so.62.2.0)
+     n1: 16135 0x127A9335: jpeg_consume_input (in /usr/lib/x86_64-linux-gnu/libjpeg.so.62.2.0)
+      n1: 16135 0x127A95DE: jpeg_read_header (in /usr/lib/x86_64-linux-gnu/libjpeg.so.62.2.0)
+       n1: 16135 0xAFBB870: cv::JpegDecoder::readHeader() (in /usr/local/lib/libopencv_imgcodecs.so.3.3.1)
+        n1: 16135 0xAFA475B: cv::imread_(cv::String const&, int, int, cv::Mat*) (in /usr/local/lib/libopencv_imgcodecs.so.3.3.1)
+         n1: 16135 0xAFA67C3: cv::imread(cv::String const&, int) (in /usr/local/lib/libopencv_imgcodecs.so.3.3.1)
+          n0: 16135 0x10A389: main (main.cpp:28)
+  n0: 6046 in 2 places, all below massif's threshold (1.00%)
+ n2: 17688 0xFDEE527: g_malloc (in /lib/x86_64-linux-gnu/libglib-2.0.so.0.5400.1)
+  n1: 16384 0xFDF8C5A: ??? (in /lib/x86_64-linux-gnu/libglib-2.0.so.0.5400.1)
+   n1: 16384 0x400F898: call_init.part.0 (dl-init.c:72)
+    n1: 16384 0x400F9A9: _dl_init (dl-init.c:30)
+     n0: 16384 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+  n0: 1304 in 5 places, all below massif's threshold (1.00%)
+ n1: 14048 0xFDEE57F: g_malloc0 (in /lib/x86_64-linux-gnu/libglib-2.0.so.0.5400.1)
+  n0: 14048 in 15 places, all below massif's threshold (1.00%)
+ n1: 12384 0x148A94DE: ??? (in /usr/lib/x86_64-linux-gnu/libpixman-1.so.0.34.0)
+  n0: 12384 in 6 places, all below massif's threshold (1.00%)
+ n1: 11440 0xCFCCB3E: __new_exitfn (cxa_atexit.c:101)
+  n2: 11440 0xCFCCBE7: __cxa_atexit (cxa_atexit.c:35)
+   n1: 9360 0x400F898: call_init.part.0 (dl-init.c:72)
+    n1: 9360 0x400F9A9: _dl_init (dl-init.c:30)
+     n0: 9360 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+   n0: 2080 in 2 places, all below massif's threshold (1.00%)
+ n2: 8320 0x8B61CAD: std::_Rb_tree_iterator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<void const*, int> > > std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<void const*, int> >, std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<void const*, int> > >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<void const*, int> > > >::_M_insert_<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<void const*, int> >, std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<void const*, int> >, std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<void const*, int> > >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<void const*, int> > > >::_Alloc_node>(std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<void const*, int> >&&, std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<void const*, int> >, std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<void const*, int> > >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, std::pair<void const*, int> > > >::_Alloc_node&) [clone .isra.253] (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+  n2: 8240 0x8B67D15: google::protobuf::SimpleDescriptorDatabase::DescriptorIndex<std::pair<void const*, int> >::AddSymbol(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::pair<void const*, int>) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+   n1: 8000 0x8B681AD: google::protobuf::SimpleDescriptorDatabase::DescriptorIndex<std::pair<void const*, int> >::AddFile(google::protobuf::FileDescriptorProto const&, std::pair<void const*, int>) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+    n1: 8000 0x8B68D29: google::protobuf::EncodedDescriptorDatabase::Add(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+     n1: 8000 0x8B18598: google::protobuf::DescriptorPool::InternalAddGeneratedFile(void const*, int) (in /usr/local/lib/libopencv_dnn.so.3.3.1)
+      n0: 8000 in 9 places, all below massif's threshold (1.00%)
+   n0: 240 in 1 place, below massif's threshold (1.00%)
+  n0: 80 in 1 place, below massif's threshold (1.00%)
+ n2: 7541 0x127C2BA4: ??? (in /usr/lib/x86_64-linux-gnu/libjpeg.so.62.2.0)
+  n1: 6222 0x127C2DDC: ??? (in /usr/lib/x86_64-linux-gnu/libjpeg.so.62.2.0)
+   n0: 6222 in 2 places, all below massif's threshold (1.00%)
+  n0: 1319 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=51
+#-----------
+time=197892431
+mem_heap_B=518599
+mem_heap_extra_B=20361
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=197985587
+mem_heap_B=518599
+mem_heap_extra_B=20361
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=198057994
+mem_heap_B=518135
+mem_heap_extra_B=20321
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=198277054
+mem_heap_B=519607
+mem_heap_extra_B=20409
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=198725416
+mem_heap_B=1043983
+mem_heap_extra_B=20505
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=198890910
+mem_heap_B=2092647
+mem_heap_extra_B=20561
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=199336960
+mem_heap_B=2092735
+mem_heap_extra_B=20577
+mem_stacks_B=0
+heap_tree=peak
+n4: 2092735 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 1837129 0xC261AD9: cv::fastMalloc(unsigned long) (in /usr/local/lib/libopencv_core.so.3.3.1)
+  n4: 1835008 0xC39B4F4: cv::Mat::create(int, int const*, int) (in /usr/local/lib/libopencv_core.so.3.3.1)
+   n1: 1048576 0xC3BB061: cv::_OutputArray::create(cv::Size_<int>, int, int, bool, int) const (in /usr/local/lib/libopencv_core.so.3.3.1)
+    n1: 1048576 0xC2B89CA: cv::Mat::convertTo(cv::_OutputArray const&, int, double, double) const (in /usr/local/lib/libopencv_core.so.3.3.1)
+     n1: 1048576 0x10C585: Program::calculateFitness(cv::Mat) (program.cpp:20)
+      n0: 1048576 0x10A45C: main (main.cpp:36)
+   n1: 262144 0xAFA4D87: cv::imread_(cv::String const&, int, int, cv::Mat*) (in /usr/local/lib/libopencv_imgcodecs.so.3.3.1)
+    n1: 262144 0xAFA67C3: cv::imread(cv::String const&, int) (in /usr/local/lib/libopencv_imgcodecs.so.3.3.1)
+     n0: 262144 0x10A389: main (main.cpp:28)
+   n1: 262144 0xC36B981: cv::MatOp_Initializer::assign(cv::MatExpr const&, cv::Mat&, int) const (in /usr/local/lib/libopencv_core.so.3.3.1)
+    n1: 262144 0x10CD96: cv::MatExpr::operator cv::Mat() const (mat.inl.hpp:3363)
+     n1: 262144 0x10C42E: Program::calculateFitness(cv::Mat) (program.cpp:13)
+      n0: 262144 0x10A45C: main (main.cpp:36)
+   n1: 262144 0xC3B898E: cv::_OutputArray::create(int, int const*, int, int, bool, int) const (in /usr/local/lib/libopencv_core.so.3.3.1)
+    n1: 262144 0xC3C0A6E: cv::_OutputArray::createSameSize(cv::_InputArray const&, int) const (in /usr/local/lib/libopencv_core.so.3.3.1)
+     n1: 262144 0xC27014E: cv::arithm_op(cv::_InputArray const&, cv::_InputArray const&, cv::_OutputArray const&, cv::_InputArray const&, int, void (**)(unsigned char const*, unsigned long, unsigned char const*, unsigned long, unsigned char*, unsigned long, int, int, void*), bool, void*, int) [clone .constprop.190] (in /usr/local/lib/libopencv_core.so.3.3.1)
+      n1: 262144 0xC270CA0: cv::absdiff(cv::_InputArray const&, cv::_InputArray const&, cv::_OutputArray const&) (in /usr/local/lib/libopencv_core.so.3.3.1)
+       n1: 262144 0x10C507: Program::calculateFitness(cv::Mat) (program.cpp:19)
+        n0: 262144 0x10A45C: main (main.cpp:36)
+  n0: 2121 in 2 places, all below massif's threshold (1.00%)
+ n1: 93632 0x1DF60D45: ??? (in /usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.4)
+  n2: 93632 0x1DF6222C: asn1_array2tree (in /usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.4)
+   n1: 81320 0x1ACF80D3: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.8)
+    n1: 81320 0x1ACD6A3F: ??? (in /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.8)
+     n1: 81320 0x400F898: call_init.part.0 (dl-init.c:72)
+      n1: 81320 0x400F9A9: _dl_init (dl-init.c:30)
+       n0: 81320 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+   n0: 12312 in 1 place, below massif's threshold (1.00%)
+ n0: 89270 in 143 places, all below massif's threshold (1.00%)
+ n1: 72704 0xC789224: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x400F898: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x400F9A9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000C58: ??? (in /lib/x86_64-linux-gnu/ld-2.24.so)
+#-----------
+snapshot=58
+#-----------
+time=201090577
+mem_heap_B=1830527
+mem_heap_extra_B=20537
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=202030645
+mem_heap_B=1829838
+mem_heap_extra_B=20362
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=202092856
+mem_heap_B=1829643
+mem_heap_extra_B=20141
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=202403551
+mem_heap_B=1819032
+mem_heap_extra_B=17544
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=202525757
+mem_heap_B=1817720
+mem_heap_extra_B=17400
+mem_stacks_B=0
+heap_tree=empty

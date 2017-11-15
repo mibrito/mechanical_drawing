@@ -1,43 +1,63 @@
 #ifndef __PRIMITIVES_H_INCLUDED__
 #define __PRIMITIVES_H_INCLUDED__
 
+#include <vector>
 #include <cstdlib>
+#include <iostream>
 #include <opencv2/core.hpp>
 #include <opencv2/imgproc.hpp>
+#include <opencv2/highgui.hpp>
 
 using std::rand;
-using namespace cv;
 
 #define MAX_GRAY 255
-#define RANDINT(UPPER) ((rand() % UPPER-1)+1)
+#define RANDINT(UPPER) (rand() % UPPER)
 
-class Line {
-  public:
-    Point p1;
-    Point p2;
-    Scalar color;
+class Draw {
+protected:
+  virtual void print(std::ostream& out) const;
+public:
+  int depth;
+  std::vector<Draw*> drawings;
 
-    Line (Point p1, Point p2, Scalar color) {
-      this->p1 = p1;
-      this->p2 = p2;
-      this->color = color;
-    }
-    void draw(Mat img) {
-      line(img, p1, p2, color, 1, LINE_8);
-    }
+  explicit Draw (const Draw &d);
+  explicit Draw (int d);
+  virtual ~Draw();
 
-    static Line generateRandom(int width, int height) {
-      return Line(
-        Point(RANDINT(width), RANDINT(height)),
-        Point(RANDINT(width), RANDINT(height)),
-        Scalar(RANDINT(MAX_GRAY))
-      );
-    }
+  virtual Draw* clone() const;
 
-    friend std::ostream& operator<<(std::ostream &strm, const Line &l) {
-      strm << "Line( " << l.p1 << "," << l.p2 << "," << l.color << " )";
-      return strm;
-    }
+  virtual void draw(cv::Mat img) const;
+  
+  virtual bool equals(const Draw &d) const;
+
+  friend std::ostream& operator<< (std::ostream& out, const Draw& bd) {
+    bd.print(out);
+    return out;
+  }
+  friend std::ostream& operator<< (std::ostream& out, const Draw* bd) {
+    bd->print(out);
+    return out;
+  }
+};
+
+class Line: public Draw {
+protected:
+  virtual void print(std::ostream& out) const;
+  
+public:
+  cv::Point p1;
+  cv::Point p2;
+  cv::Scalar color;
+
+  explicit Line (const Line &l);
+  Line (cv::Point p1, cv::Point p2, cv::Scalar color);
+  virtual ~Line(){}
+  virtual Line* clone() const;
+
+  virtual void draw(cv::Mat img) const;
+  virtual bool equals(const Draw &d) const;
+
+  static Line* generateRandom(int width, int height);
 };
 
 #endif
