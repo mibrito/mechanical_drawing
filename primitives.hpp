@@ -62,17 +62,26 @@ public:
   static Line* generateRandom(int width, int height);
 };
 
-class Coord: public Draw {
-protected:
-  virtual void print(std::ostream& out) const;
+// class Triangle: public Draw {
+// protected:
+//   virtual void print(std::ostream& out) const;
+  
+// public:
+//   cv::Point p1;
+//   cv::Point p2;
+//   cv::Point p3;
+//   cv::Scalar color;
 
-public:
-  int value;
-  explicit Coord(int const& value);
-  ~Coord(){}
+//   explicit Triangle (const Triangle &l);
+//   Triangle (cv::Point const& p1, cv::Point const& p2, cv::Point const& p3 cv::Scalar const& color);
+//   virtual ~Triangle(){}
+//   virtual Triangle* clone() const;
 
-  virtual Coord* clone() const;
-};
+//   virtual void draw(cv::Mat const& img) const;
+//   virtual bool equals(const Draw &d) const;
+
+//   static Triangle* generateRandom(int width, int height);
+// };
 
 // class Color: public Draw {
 

@@ -114,7 +114,7 @@ Line* Line::clone() const {
 }
 
 void Line::print(std::ostream& out) const {
-  out << std::endl << "\t" << "Line( " << p1 << "," << p2 << "," << color << " )";
+  out << "Line( " << p1 << "," << p2 << "," << color << " )";
 }
 
 void Line::draw(cv::Mat const& img) const {
@@ -130,16 +130,33 @@ bool Line::equals(const Draw &d) const {
 }
 
 /**
- * Coord functions
+ * Triangle functions
  */
 
-Coord::Coord(int const& value)
-: Draw(0), value{value} {};
+// Triangle::Triangle(const Triangle &l)
+// : Draw (0), p1{l.p1}, p2{l.p2}, p3{l.p3}, color{l.color}
+// {}
 
-void Coord::print(std::ostream& out) const {
-  out << value;
-}
+// Triangle::Triangle (cv::Point const& p1, cv::Point const& p2, cv::Point const& p3, cv::Scalar const& color)
+// : Draw (0), p1{p1}, p2{p2}, p3{p3}, color{color}
+// {}
 
-Coord* Coord::clone() const{
-  return new Coord(*this);
-}
+// Triangle* Triangle::clone() const {
+//   return new Triangle(*this);
+// }
+
+// void Triangle::print(std::ostream& out) const {
+//   out << "Triangle( " << p1 << "," << p2 << "," << p3 << "," << color << " )";
+// }
+
+// void Triangle::draw(cv::Mat const& img) const {
+//   cv::line(img, p1, p2, color, thickness, CV_AA);
+// }
+
+// bool Triangle::equals(const Draw &d) const {
+//   if (auto const& l = dynamic_cast<const Triangle*>(&d)){
+//     return (p1 == l->p1) && (p2 == l->p2) && (color == l->color);
+//   } else {
+//     return false;
+//   }
+// }

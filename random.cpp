@@ -9,3 +9,6 @@ int R::gray () { return distGray(R::generator); }
 int R::x () { return distX(R::generator); }
 int R::y () { return distY(R::generator); }
 int R::thickness () { return distThickness(R::generator); }
+int R::thickness2 () {
+  return (int)((distThickness2(R::generator) + 1)*std::min(width, height)/100);
+}

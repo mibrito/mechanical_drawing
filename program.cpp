@@ -175,7 +175,7 @@ void Program::mutationLeaf(){
         } else {
           l->color = cv::Scalar(rand.gray());
         }
-        // else if(rand.runif() < 0.5) {
+        //  else if(rand.runif() < 0.5) {
         //   l->thickness = rand.thickness();
         // }  
         break;
