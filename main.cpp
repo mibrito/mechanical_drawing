@@ -1,42 +1,41 @@
-#include <ctime>
 #include <cstdlib>
 #include <iostream>
 #include <opencv2/core.hpp>
 
-#include "test.hpp"
+#include "gp.hpp"
 #include "program.hpp"
 
 #define MAX_DEPTH 2
-#define HEIGHT 512
-#define WIDTH 512
 
-void showDraw(Program p){
-	cv::Mat img (WIDTH, HEIGHT, CV_8UC1, cv::Scalar(255));
+int main( int argc, char** argv ) {	
+  if(argc < 10){
+    std::cout << "./mechanical_draw <individuos> <elitism> <maxDepth> <pcross> <pmul> <epochs> <nThreads> <imgSrc> <imgDst>" << std::endl;
+    return 1;
+  }
 
-	p.draw(img);
+	cv::Mat originalImg = cv::imread(argv[8] , CV_LOAD_IMAGE_GRAYSCALE);
 
-	cv::imshow("Show Draw", img);
-	cv::waitKey(0);
-}
+	GP gp = GP(
+    std::stoi(argv[1]),
+    std::stoi(argv[2]),
+    std::stoi(argv[3]),
+    std::stod(argv[4]),
+    std::stod(argv[5]),
+    originalImg,
+    std::stoi(argv[7])
+  );
 
+  gp.run(std::stoi(argv[6]));
+  
+  std::cout << gp.population.front()->fitness << std::endl;
 
-int main( void ) {
-	srand (345);
-	
-	cv::Mat originalImg = cv::imread("./pics/lennabw.jpg" , CV_LOAD_IMAGE_GRAYSCALE);
+  gp.population.front()->saveImage(argv[9]);
+  
+  // auto p = Program::generateRandomNodes(2, 512, 512);
 
-	auto A = new Program(originalImg.size[0], originalImg.size[1]);
-	auto B = new Program(originalImg.size[0], originalImg.size[1]);
-	A->fillRandomNodes(MAX_DEPTH);
-	B->fillRandomNodes(MAX_DEPTH);
+  // std::cout << p << std::endl;
 
-	auto children = Program::crossover(A, B);
-
-	delete A;
-	delete B;
-
-	delete children[0];
-	delete [] children;
+  // delete p;
 
 	return 0;
 }

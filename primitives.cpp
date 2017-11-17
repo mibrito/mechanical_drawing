@@ -1,15 +1,16 @@
+#include "random.hpp"
 #include "primitives.hpp"
 
 /**
  * Draw functions
  */
-Draw::Draw (const Draw &d) {
-  depth = d.depth;
-}
+Draw::Draw (const Draw &d)
+: depth{d.depth}
+{}
 
-Draw::Draw (int d) {
-  depth = d;
-}
+Draw::Draw (int d)
+: depth{d}
+{}
 
 Draw::~Draw(){
   for(Draw *d: drawings){
@@ -39,7 +40,7 @@ void Draw::print(std::ostream& out) const {
   out << ")" << std::endl;
 };
 
-void Draw::draw(cv::Mat img) const {
+void Draw::draw(cv::Mat const& img) const {
   for(auto const& c: drawings){
     c->draw(img);
   }
@@ -56,23 +57,57 @@ bool Draw::equals(const Draw &d) const {
   return true;
 }
 
+std::vector<Draw*> Draw::generate(int const& maxDepth, int const& w, int const& h){
+  R rand = R(w, h);
+  std::vector<Draw*> nodes;
+
+  auto root = new Draw(0);
+  nodes.push_back(root);
+
+  std::list<Draw*> L;
+  L.push_back(root);
+  while(!L.empty()){
+    auto curr = L.front();
+    L.pop_front();
+
+    if(curr->depth == maxDepth || rand.runif() > 0.5) {
+      for(int i=0; i < MAX_PRIMITIVES; i++){
+        auto child = new Line(
+          cv::Point(rand.x(), rand.y()),
+          cv::Point(rand.x(), rand.y()),
+          cv::Scalar(rand.gray()),
+          // rand.thickness()
+          1
+        );
+        curr->drawings.push_back(child);
+        nodes.push_back(child);
+      }
+    } else {
+      for(int i=0; i < MAX_DRAWS; i++){
+        auto child = new Draw(curr->depth+1);
+
+        curr->drawings.push_back(child);
+        nodes.push_back(child);
+        L.push_back(child);
+      }
+    }
+  }
+
+  return nodes;
+}
+
+
 /**
  * Line funcions
  */
 
 Line::Line(const Line &l)
-: Draw (0){
-  p1 = l.p1;
-  p2 = l.p2;
-  color = l.color;
-}
+: Draw (0), p1{l.p1}, p2{l.p2}, color{l.color}, thickness{l.thickness}
+{}
 
-Line::Line (cv::Point p1, cv::Point p2, cv::Scalar color)
-: Draw (0) {
-  this->p1 = p1;
-  this->p2 = p2;
-  this->color = color;
-}
+Line::Line (cv::Point const& p1, cv::Point const& p2, cv::Scalar const& color, int const& thickness)
+: Draw (0), p1{p1}, p2{p2}, color{color}, thickness{thickness}
+{}
 
 Line* Line::clone() const {
   return new Line(*this);
@@ -82,8 +117,8 @@ void Line::print(std::ostream& out) const {
   out << std::endl << "\t" << "Line( " << p1 << "," << p2 << "," << color << " )";
 }
 
-void Line::draw(cv::Mat img) const {
-  cv::line(img, p1, p2, color, 1, CV_AA);
+void Line::draw(cv::Mat const& img) const {
+  cv::line(img, p1, p2, color, thickness, CV_AA);
 }
 
 bool Line::equals(const Draw &d) const {
@@ -94,10 +129,17 @@ bool Line::equals(const Draw &d) const {
   }
 }
 
-Line* Line::generateRandom(int width, int height) {
-  return new Line(
-    cv::Point(RANDINT(width-1), RANDINT(height-1)),
-    cv::Point(RANDINT(width-1), RANDINT(height-1)),
-    cv::Scalar(RANDINT(MAX_GRAY))
-  );
+/**
+ * Coord functions
+ */
+
+Coord::Coord(int const& value)
+: Draw(0), value{value} {};
+
+void Coord::print(std::ostream& out) const {
+  out << value;
+}
+
+Coord* Coord::clone() const{
+  return new Coord(*this);
 }

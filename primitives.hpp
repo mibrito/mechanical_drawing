@@ -1,6 +1,7 @@
 #ifndef __PRIMITIVES_H_INCLUDED__
 #define __PRIMITIVES_H_INCLUDED__
 
+#include <list>
 #include <vector>
 #include <cstdlib>
 #include <iostream>
@@ -8,10 +9,8 @@
 #include <opencv2/imgproc.hpp>
 #include <opencv2/highgui.hpp>
 
-using std::rand;
-
-#define MAX_GRAY 255
-#define RANDINT(UPPER) (rand() % UPPER)
+#define MAX_DRAWS 2
+#define MAX_PRIMITIVES 4
 
 class Draw {
 protected:
@@ -26,9 +25,11 @@ public:
 
   virtual Draw* clone() const;
 
-  virtual void draw(cv::Mat img) const;
+  virtual void draw(cv::Mat const& img) const;
   
   virtual bool equals(const Draw &d) const;
+
+  static std::vector<Draw*> generate(int const& maxDepth, int const& w, int const& h);
 
   friend std::ostream& operator<< (std::ostream& out, const Draw& bd) {
     bd.print(out);
@@ -48,16 +49,33 @@ public:
   cv::Point p1;
   cv::Point p2;
   cv::Scalar color;
+  int thickness;
 
   explicit Line (const Line &l);
-  Line (cv::Point p1, cv::Point p2, cv::Scalar color);
+  Line (cv::Point const& p1, cv::Point const& p2, cv::Scalar const& color, int const& thickness);
   virtual ~Line(){}
   virtual Line* clone() const;
 
-  virtual void draw(cv::Mat img) const;
+  virtual void draw(cv::Mat const& img) const;
   virtual bool equals(const Draw &d) const;
 
   static Line* generateRandom(int width, int height);
 };
+
+class Coord: public Draw {
+protected:
+  virtual void print(std::ostream& out) const;
+
+public:
+  int value;
+  explicit Coord(int const& value);
+  ~Coord(){}
+
+  virtual Coord* clone() const;
+};
+
+// class Color: public Draw {
+
+// }
 
 #endif

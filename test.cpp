@@ -28,8 +28,8 @@ void drawRandomLines (void) {
   std::uniform_int_distribution<int> distribution(1,w);
   auto dice = std::bind ( distribution, generator );
 
-  Line ln1 (cv::Point(dice(), dice()), cv::Point(dice(), dice()), cv::Scalar(119));
-  Line ln2 (cv::Point(dice(), dice()), cv::Point(dice(), dice()), cv::Scalar(119));
+  Line ln1 (cv::Point(dice(), dice()), cv::Point(dice(), dice()), cv::Scalar(119), dice());
+  Line ln2 (cv::Point(dice(), dice()), cv::Point(dice(), dice()), cv::Scalar(119), dice());
   ln1.draw(img);
 
   std::cout << "img = " << std::endl << ln1.p1 << std::endl;
