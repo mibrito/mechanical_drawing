@@ -4,13 +4,12 @@
 /**
  * Draw functions
  */
-Draw::Draw (const Draw &d)
-: depth{d.depth}
-{}
-
-Draw::Draw (int d)
-: depth{d}
-{}
+Draw::Draw (const Draw &d) {
+  depth = d;
+}
+Draw::Draw (int d) {
+  depth = d;
+}
 
 Draw::~Draw(){
   for(Draw *d: drawings){
