@@ -99,13 +99,20 @@ std::vector<Draw*> Draw::generate(int const& maxDepth, int const& w, int const& 
  * Line funcions
  */
 
-Line::Line(const Line &l)
-: Draw (0), p1{l.p1}, p2{l.p2}, color{l.color}, thickness{l.thickness}
-{}
+Line::Line(const Line &l) : Draw (0) {
+  p1 = l.p1;
+  p2 = l.p2;
+  color = l.color;
+  thickness = l.thickness;
+}
 
 Line::Line (cv::Point const& p1, cv::Point const& p2, cv::Scalar const& color, int const& thickness)
-: Draw (0), p1{p1}, p2{p2}, color{color}, thickness{thickness}
-{}
+: Draw (0) {
+  this->p1 = p1;
+  this->p2 = p2;
+  this->color = color;
+  this->thickness = thickness;
+}
 
 Line* Line::clone() const {
   return new Line(*this);
