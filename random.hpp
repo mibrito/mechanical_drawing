@@ -23,17 +23,17 @@ public:
   std::uniform_int_distribution<int> distMutationChangeLeaf;
 
   R() {}
-  R(int const& width, int const &height)
-    : distRealUniform{std::uniform_real_distribution<double> {0.0, 1.0}},
-      distIntUniform{ std::uniform_int_distribution<int> {1,INT_MAX} },
-      distGray{ std::uniform_int_distribution<int> {1,255} },
-      distX{ std::uniform_int_distribution<int> {1, width} },
-      distY{ std::uniform_int_distribution<int> {1, height} },
-      distThickness{ std::uniform_int_distribution<int> {1, (int)std::min(width,height) } },
-      distThickness2{ std::uniform_int_distribution<int> {1,2} },
-      distMutation{ std::uniform_int_distribution<int> {0, 4} },
-      distMutationChangeLeaf{ std::uniform_int_distribution<int> {0, 7} }
-  {}
+  R(int const& width, int const &height) {
+    distRealUniform = std::uniform_real_distribution<double> (0.0, 1.0);
+    distIntUniform = std::uniform_int_distribution<int> (1,INT_MAX);
+    distGray = std::uniform_int_distribution<int> (1,255);
+    distX = std::uniform_int_distribution<int> (1, width) ;
+    distY = std::uniform_int_distribution<int> (1, height);
+    distThickness = std::uniform_int_distribution<int> (1, (int)std::min(width,height));
+    distThickness2 = std::uniform_int_distribution<int> (1,2);
+    distMutation = std::uniform_int_distribution<int> (0, 4);
+    distMutationChangeLeaf = std::uniform_int_distribution<int> (0, 7);
+  }
 
   double runif ();
   int iunif ();
