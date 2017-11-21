@@ -37,4 +37,5 @@
 
 massif.out.*
 
+pics/results
 # End of https://www.gitignore.io/api/c++
