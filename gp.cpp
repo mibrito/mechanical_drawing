@@ -67,10 +67,10 @@ void GP::sortByFitness(){
   std::sort(population.begin(), population.end(), Program::compare);
 }
 
-void GP::epoch(){
+void GP::epoch(int const& mutationType){
 	std::vector<Program*> newPopulation;
 
-  int mutationType = MUTATION_MIXED;
+  // int mutationType = MUTATION_MIXED;
 
   for(int e=0; e<elitism; e++){
     newPopulation.push_back(population[e]->clone());
@@ -87,7 +87,11 @@ void GP::epoch(){
 				child[1]->mutation(mutationType);
 			}
       newPopulation.push_back(child[0]);
-      if(newPopulation.size() < (unsigned) nIndividuals) newPopulation.push_back(child[1]);
+      if(newPopulation.size() < (unsigned) nIndividuals){
+        newPopulation.push_back(child[1]);
+      } else {
+        delete child[1];
+      }
       delete [] child;
 		} else {
 			auto child = new Program*[2]{
@@ -99,7 +103,11 @@ void GP::epoch(){
         child[1]->mutation(mutationType);
 			}
       newPopulation.push_back(child[0]);
-      if(newPopulation.size() < (unsigned) nIndividuals) newPopulation.push_back(child[1]);
+      if(newPopulation.size() < (unsigned) nIndividuals){
+        newPopulation.push_back(child[1]);
+      } else {
+        delete child[1];
+      }
       delete [] child;
 		}
 		delete [] ind;
@@ -110,19 +118,31 @@ void GP::epoch(){
 	population = newPopulation;
 }
 
-void GP::run(int const& nEpoch) {
+void GP::run(int const& mutationType, int const& nEpoch, std::string &output) {
   generateIndividuals();
   calculateFitness();
   sortByFitness();
 
-  for(int e=0; e<nEpoch; e++){
-    epoch();
+  int e;
+  for(e=0; e<nEpoch; e++){
+    epoch(mutationType);
     calculateFitness();
     sortByFitness();
-    if(e%20 == 0){
-      std::cout << e << " " << population.front()->fitness[0] << " " << population.back()->fitness[0] << std::endl;
+    if(e%100 == 0){
+      std::cout << e << " " << population.front()->fitness << " " << population.back()->fitness << std::endl;
+
+      std::string out = output+"_" +std::to_string(e) + "_" +std::to_string(population.front()->fitness)+ ".jpg";
+      population.front()->saveImage(out);
+      out += ".prog";
+      population.front()->saveProgram(out);
     }
   }
+  std::cout << e << " " << population.front()->fitness << " " << population.back()->fitness << std::endl;
+
+  std::string out = output+"_" +std::to_string(e) + "_" +std::to_string(population.front()->fitness)+ ".jpg";
+  population.front()->saveImage(out);
+  out += ".prog";
+  population.front()->saveProgram(out);
 }
 
 /**

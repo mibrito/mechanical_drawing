@@ -41,8 +41,8 @@ public:
   void calculateFitness();
   void sortByFitness();
   void crossover();
-  void epoch();
-  void run(int const& epoch);
+  void epoch(int const& mutationType);
+  void run(int const& mutationType, int const& epoch, std::string &output);
 
   int* sample(const int &m, const int &n);
   

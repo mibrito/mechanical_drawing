@@ -16,9 +16,19 @@
 
 #define MAX_MUTATION_DEPTH 1
 
-#define MUTATION_LEAF 0
-#define MUTATION_TREE 1
+#define MUTATION_CHANGE_LEAF 0
+#define MUTATION_LEAF 1
+#define MUTATION_TREE 2
 #define MUTATION_MIXED 3
+
+#define CHANGE_LEAF_P1 0
+#define CHANGE_LEAF_P2 1
+#define CHANGE_LEAF_H 2
+#define CHANGE_LEAF_V 3
+#define CHANGE_LEAF_HV 4
+#define CHANGE_LEAF_R 5
+#define CHANGE_LEAF_COLOR 6
+#define CHANGE_LEAF_THICK 7
 
 class Program {
 private:
@@ -27,7 +37,7 @@ private:
 public:
 	int width, height;
 
-	cv::Scalar fitness = cv::Scalar(std::numeric_limits<float>::max());
+	double fitness = std::numeric_limits<float>::max();
 	std::vector<Draw*> nodes;
 
 	explicit Program(const Program &p);
@@ -37,14 +47,15 @@ public:
 
   void draw(cv::Mat const& img);
   void show();
-  void saveImage(const char* filename);
-  void saveProgram(const char* filename);
-  cv::Scalar calculateFitness(cv::Mat const& originalImg);
+  void saveImage(std::string &filename);
+  void saveProgram(std::string &filename);
+  double calculateFitness(cv::Mat const& originalImg);
   void fillRandomNodes(int maxDepth);
   int changePoint();
 
   Program* crossover(Program *pB, int const& cpA, int const& cpB);
   void mutation(int const& type);
+  void mutationChangeLeaf();
   void mutationLeaf();
   void mutationTree();
 
@@ -52,18 +63,18 @@ public:
 	static Program** crossover(Program* parentA, Program* parentB);
 
 	friend std::ostream& operator<<(std::ostream &strm, const Program &p) {
-		return strm << "P" << p.nodes.size() << "(" << p.nodes.front() << ")";
+		return strm << p.nodes.front();
 	}
 	friend std::ostream& operator<<(std::ostream &strm, const Program *p) {
-		return strm << "P" << p->nodes.size() << "(" << p->nodes.front() << ")";
+		return strm << p->nodes.front();
 	}
 
 	friend bool operator<(const Program &a, const Program &b) {
-		return a.fitness[0] < b.fitness[0];
+		return a.fitness < b.fitness;
 	}
   
   static bool compare(Program *a, Program *b){
-    return a->fitness[0] < b->fitness[0];
+    return a->fitness < b->fitness;
   }
 };
 

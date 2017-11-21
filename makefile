@@ -1,10 +1,10 @@
 BIN=mechanical_drawing
-CFLAGS=-W -Wall -Werror -g3
+CFLAGS=-W -Wall -Werror -g3 -O3
 GRAPHICS=`pkg-config --cflags --libs opencv`
 
 all: $(BIN)
 $(BIN): random.o primitives.o test.o program.o gp.o main.o
-	g++ -o $(BIN) main.o gp.o test.o program.o primitives.o random.o -g3  -pthread $(GRAPHICS)
+	g++ -o $(BIN) main.o gp.o test.o program.o primitives.o random.o -g3 -O3 -pthread $(GRAPHICS)
 
 main.o: gp.hpp main.cpp
 	g++ -o main.o -c main.cpp $(CFLAGS)

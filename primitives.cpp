@@ -28,16 +28,14 @@ Draw* Draw::clone() const {
 }
 
 void Draw::print(std::ostream& out) const {
-  out << std::endl;
-  for(int i=0; i<depth; i++) out << "\t";
-
-  out << "Draw" << depth << "( ";
-  for(auto const& c: drawings){
-    out << c;
+  out << "Draw(";
+  for(unsigned i=0; i<drawings.size();i++){
+    out << drawings[i];
+    if(i<drawings.size()-1){
+      out << ",";
+    }
   }
-  out << std::endl;
-  for(int i=0; i<depth; i++) out << "\t";
-  out << ")" << std::endl;
+  out << ")";
 };
 
 void Draw::draw(cv::Mat const& img) const {
@@ -76,8 +74,8 @@ std::vector<Draw*> Draw::generate(int const& maxDepth, int const& w, int const& 
           cv::Point(rand.x(), rand.y()),
           cv::Point(rand.x(), rand.y()),
           cv::Scalar(rand.gray()),
-          // rand.thickness()
-          1
+          rand.thickness()
+          // 1
         );
         curr->drawings.push_back(child);
         nodes.push_back(child);
@@ -118,6 +116,13 @@ void Line::print(std::ostream& out) const {
 }
 
 void Line::draw(cv::Mat const& img) const {
+  // cv::Mat overlay (img.size[0], img.size[1], CV_8UC1, cv::Scalar(255));
+  // cv::Mat overlay = cv::Mat::ones (img.size[0], img.size[1], CV_8UC1);
+  // cv::Mat overlay;
+  // img.copyTo(overlay);
+  // double opacity = 0.5;
+  // cv::line(overlay, p1, p2, color, thickness, CV_AA);
+  // cv::addWeighted(overlay, opacity, img, 1 - opacity, 0, img);
   cv::line(img, p1, p2, color, thickness, CV_AA);
 }
 

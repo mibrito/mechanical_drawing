@@ -19,7 +19,9 @@ public:
   std::uniform_int_distribution<int> distX;
   std::uniform_int_distribution<int> distY;
   std::uniform_int_distribution<int> distThickness;
-  std::gamma_distribution<double> distThickness2{2.0,2.0};
+  std::uniform_int_distribution<int> distThickness2{1,2};
+  std::uniform_int_distribution<int> distMutation{0,1};
+  std::uniform_int_distribution<int> distMutationChangeLeaf{0,6};
 
   R() {}
   R(int const& width, int const &height)
@@ -36,6 +38,8 @@ public:
   int y ();
   int thickness ();
   int thickness2 ();
+  int mutation ();
+  int mutationChangeLeaf ();
 };
 
 #endif
