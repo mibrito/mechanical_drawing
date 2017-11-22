@@ -8,6 +8,8 @@
 #include <iostream>
 #include <algorithm>
 #include <opencv2/core.hpp>
+#include <opencv2/highgui.hpp>
+
 #include "random.hpp"
 #include "primitives.hpp"
 
