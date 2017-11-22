@@ -165,7 +165,7 @@ void Program::mutationTree(){
   nodes = replaceNodes;
 }
 
-void Program::mutationLeaf(){
+void Program::mutationLeaf(){ // leafs 2
   int m = changePoint();
 
   Draw* mutationPoint = nodes[m];
@@ -210,23 +210,23 @@ void Program::mutationChangeLeaf(){
       if(rand.runif() < 0.5){
         type = rand.mutationChangeLeaf();
         switch(type){
-          case CHANGE_LEAF_P1:
+          case CHANGE_LEAF_P1: //leafs 1
             l->p1 = cv::Point(rand.x(), rand.y());
             break;
-          case CHANGE_LEAF_P2:
+          case CHANGE_LEAF_P2: // leafs 1
             l->p2 = cv::Point(rand.x(), rand.y());
             break;
-          case CHANGE_LEAF_H:
+          case CHANGE_LEAF_H: //leafs 2
             x = rand.x();
             l->p1.x = (l->p1.x + x)%width+1;
             l->p2.x = (l->p2.x + x)%width+1;
             break;
-          case CHANGE_LEAF_V:
+          case CHANGE_LEAF_V: // leafs 2
             y = rand.y();
             l->p1.y = (l->p1.y + y)%height+1;
             l->p2.y = (l->p2.y + y)%height+1;
             break;
-          case CHANGE_LEAF_HV:
+          case CHANGE_LEAF_HV: // leafs 2
             x = rand.x();
             l->p1.x = (l->p1.x + x)%width+1;
             l->p2.x = (l->p2.x + x)%width+1;
@@ -235,15 +235,15 @@ void Program::mutationChangeLeaf(){
             l->p1.y = (l->p1.y + y)%height+1;
             l->p2.y = (l->p2.y + y)%height+1;
             break;
-          case CHANGE_LEAF_R:
+          case CHANGE_LEAF_R: // leafs 3
             x = rand.x();
             l->p1.x = (l->p1.x + x)%width+1;
             l->p2.x = (l->p2.x - x)%width+1;
             break;
-          case CHANGE_LEAF_COLOR:
+          case CHANGE_LEAF_COLOR: // leafs1
             l->color = cv::Scalar(rand.gray());
             break;
-          case CHANGE_LEAF_THICK:
+          case CHANGE_LEAF_THICK: // leafs 3
             l->thickness = rand.thickness();
             break;
         }

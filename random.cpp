@@ -9,9 +9,9 @@ int R::gray () { return distGray(R::generator); }
 int R::x () { return distX(R::generator); }
 int R::y () { return distY(R::generator); }
 int R::thickness () {
-  return distThickness2(R::generator);
+  // return distThickness2(R::generator);
   // return distThickness(R::generator);
-  // return 1;
+  return 1;
 }
 int R::thickness2 () {
   return distThickness2(R::generator);

@@ -30,7 +30,7 @@ public:
     distX = std::uniform_int_distribution<int> (1, width) ;
     distY = std::uniform_int_distribution<int> (1, height);
     distThickness = std::uniform_int_distribution<int> (1, (int)std::min(width,height));
-    distThickness2 = std::uniform_int_distribution<int> (1,2);
+    distThickness2 = std::uniform_int_distribution<int> (1,4);
     distMutation = std::uniform_int_distribution<int> (0, 4);
     distMutationChangeLeaf = std::uniform_int_distribution<int> (0, 7);
   }
