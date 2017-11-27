@@ -16,5 +16,6 @@ int R::thickness () {
 int R::thickness2 () {
   return distThickness2(R::generator);
 }
-int R::mutation() { return distMutation(R::generator); }
+int R::mutationAll() { return distMutationAll(R::generator); }
+int R::mutationNTree() { return distMutationNTree(R::generator); }
 int R::mutationChangeLeaf() { return distMutationChangeLeaf(R::generator); }

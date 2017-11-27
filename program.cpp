@@ -69,7 +69,7 @@ double Program::calculateFitness(cv::Mat const& originalImg){
 
   cv::absdiff(originalImg, progImg, progImg);
   cv::Scalar error = cv::sum(progImg);
-  fitness = error[0]+error[1]+error[2];
+  fitness = (error[0]+error[1]+error[2]); ///(255*width*height);
 
   return fitness;
 }
@@ -117,8 +117,10 @@ Program* Program::crossover(Program *pB, int const& cpA, int const& cpB){
 
 void Program::mutation(int const& type){
   int mutationType = type;
-  if(mutationType == 3){
-    mutationType = rand.mutation();
+  if(type == 3){
+    mutationType = rand.mutationAll();
+  } else if(type == 4) {
+    mutationType = rand.mutationNTree();
   }
   switch(mutationType){
     case MUTATION_CHANGE_LEAF:

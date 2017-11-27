@@ -129,7 +129,8 @@ void GP::run(int const& mutationType, int const& nEpoch, std::string &output) {
     calculateFitness();
     sortByFitness();
     if(e%100 == 0){
-      std::cout << e << " " << population.front()->fitness << " " << population.back()->fitness << std::endl;
+      std::cout << e << " " << population.front()->fitness << " " << population.front()->nodes.size();
+      std::cout << " " << population.back()->fitness << " " << population.back()->nodes.size() << std::endl;
 
       std::string out = output+"_" +std::to_string(e) + "_" +std::to_string(population.front()->fitness)+ ".jpg";
       population.front()->saveImage(out);
@@ -137,7 +138,8 @@ void GP::run(int const& mutationType, int const& nEpoch, std::string &output) {
       population.front()->saveProgram(out);
     }
   }
-  std::cout << e << " " << population.front()->fitness << " " << population.back()->fitness << std::endl;
+  std::cout << e << " " << population.front()->fitness << " " << population.front()->nodes.size();
+  std::cout << " " << population.back()->fitness << " " << population.back()->nodes.size() << std::endl;
 
   std::string out = output+"_" +std::to_string(e) + "_" +std::to_string(population.front()->fitness)+ ".jpg";
   population.front()->saveImage(out);
@@ -152,7 +154,7 @@ void GP::run(int const& mutationType, int const& nEpoch, std::string &output) {
  * @return   array with the m values sampled
  */
 int* GP::sample(const int &m, const int &n) {
-	int perm [n] = {};
+	int* perm = new int [n];
 	int* rtn = new int[m];
 	for (int i = 0; i < n; i++) {
 		perm[i] = i;
@@ -169,5 +171,6 @@ int* GP::sample(const int &m, const int &n) {
 		rtn[i] = perm[i];
 	}
 
+  delete [] perm;
 	return rtn;
 }

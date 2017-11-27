@@ -1,10 +1,13 @@
 BIN=mechanical_drawing
-CFLAGS=-W -Wall -Werror -g3 -O3
+CFLAGS=-W -Wall -Werror -g3 -O3  -std=c++11
 GRAPHICS=`pkg-config --cflags --libs opencv`
+
+# INCLUDE_DIRS += $(shell brew --prefix)/include
+# LIBRARY_DIRS += $(shell brew --prefix)/lib
 
 all: $(BIN)
 $(BIN): random.o primitives.o program.o test.o gp.o main.o
-	g++ $(GRAPHICS) -pthread -o $(BIN) main.o gp.o test.o program.o primitives.o random.o
+	g++ $(GRAPHICS) -o $(BIN) main.o gp.o test.o program.o primitives.o random.o
 
 main.o: gp.hpp main.cpp
 	g++ $(CFLAGS) -c -o main.o main.cpp

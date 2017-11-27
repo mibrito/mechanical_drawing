@@ -36,6 +36,7 @@
 *.app
 
 massif.out.*
+.DS_Store
 
 pics/results
 
