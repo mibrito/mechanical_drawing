@@ -129,21 +129,23 @@ void GP::run(int const& mutationType, int const& nEpoch, std::string &output) {
     calculateFitness();
     sortByFitness();
     if(e%100 == 0){
-      std::cout << e << " " << population.front()->fitness << " " << population.front()->nodes.size();
-      std::cout << " " << population.back()->fitness << " " << population.back()->nodes.size() << std::endl;
+      std::cout << e << " " << population.front()->fitness - (originalImg.size[0]*population.front()->nodes.size());
+      std::cout << " " << population.front()->nodes.size();
+      std::cout << " " << population.back()->fitness - (originalImg.size[0]*population.back()->nodes.size());
+      std::cout << " " << population.back()->nodes.size() << std::endl;
 
-      std::string out = output+"_" +std::to_string(e) + "_" +std::to_string(population.front()->fitness)+ ".jpg";
+      std::string out = output+"_" +std::to_string(e) + "_" +std::to_string(population.front()->fitness - (originalImg.size[0]*population.front()->nodes.size()))+ ".jpg";
       population.front()->saveImage(out);
       out += ".prog";
       population.front()->saveProgram(out);
     }
   }
-  std::cout << e << " " << population.front()->fitness - (10*population.front()->nodes.size());
+  std::cout << e << " " << population.front()->fitness - (originalImg.size[0]*population.front()->nodes.size());
   std::cout << " " << population.front()->nodes.size();
-  std::cout << " " << population.back()->fitness - (10*population.back()->nodes.size());
+  std::cout << " " << population.back()->fitness - (originalImg.size[0]*population.back()->nodes.size());
   std::cout << " " << population.back()->nodes.size() << std::endl;
 
-  std::string out = output+"_" +std::to_string(e) + "_" +std::to_string(population.front()->fitness)+ ".jpg";
+  std::string out = output+"_" +std::to_string(e) + "_" +std::to_string(population.front()->fitness - (originalImg.size[0]*population.front()->nodes.size()))+ ".jpg";
   population.front()->saveImage(out);
   out += ".prog";
   population.front()->saveProgram(out);
