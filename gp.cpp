@@ -138,8 +138,10 @@ void GP::run(int const& mutationType, int const& nEpoch, std::string &output) {
       population.front()->saveProgram(out);
     }
   }
-  std::cout << e << " " << population.front()->fitness << " " << population.front()->nodes.size();
-  std::cout << " " << population.back()->fitness << " " << population.back()->nodes.size() << std::endl;
+  std::cout << e << " " << population.front()->fitness - (10*population.front()->nodes.size());
+  std::cout << " " << population.front()->nodes.size();
+  std::cout << " " << population.back()->fitness - (10*population.back()->nodes.size());
+  std::cout << " " << population.back()->nodes.size() << std::endl;
 
   std::string out = output+"_" +std::to_string(e) + "_" +std::to_string(population.front()->fitness)+ ".jpg";
   population.front()->saveImage(out);

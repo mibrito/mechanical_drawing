@@ -69,7 +69,7 @@ double Program::calculateFitness(cv::Mat const& originalImg){
 
   cv::absdiff(originalImg, progImg, progImg);
   cv::Scalar error = cv::sum(progImg);
-  fitness = (error[0]+error[1]+error[2]); ///(255*width*height);
+  fitness = (error[0]+error[1]+error[2]) + (10*nodes.size()); ///(255*width*height);
 
   return fitness;
 }
@@ -249,6 +249,7 @@ void Program::mutationChangeLeaf(){
             l->thickness = rand.thickness();
             break;
         }
+        break;
       }
     }
   }
