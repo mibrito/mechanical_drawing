@@ -40,4 +40,6 @@ massif.out.*
 pics/results
 
 mechanical_drawing
+threshold
+verify
 # End of https://www.gitignore.io/api/c++
