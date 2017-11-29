@@ -128,12 +128,13 @@ void GP::run(int const& mutationType, int const& nEpoch, std::string &output) {
     epoch(mutationType);
     calculateFitness();
     sortByFitness();
-    if(e%100 == 0){
+    if(e%1000 == 0){
       std::cout << e << " " << population.front()->fitness - (originalImg.size[0]*population.front()->nodes.size());
       std::cout << " " << population.front()->nodes.size();
       std::cout << " " << population.back()->fitness - (originalImg.size[0]*population.back()->nodes.size());
       std::cout << " " << population.back()->nodes.size() << std::endl;
-
+    }
+    if(e%5000 == 0){
       std::string out = output+"_" +std::to_string(e) + "_" +std::to_string(population.front()->fitness - (originalImg.size[0]*population.front()->nodes.size()))+ ".jpg";
       population.front()->saveImage(out);
       out += ".prog";
