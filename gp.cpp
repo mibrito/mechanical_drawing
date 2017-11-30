@@ -70,8 +70,6 @@ void GP::sortByFitness(){
 void GP::epoch(int const& mutationType){
 	std::vector<Program*> newPopulation;
 
-  // int mutationType = MUTATION_MIXED;
-
   for(int e=0; e<elitism; e++){
     newPopulation.push_back(population[e]->clone());
   }

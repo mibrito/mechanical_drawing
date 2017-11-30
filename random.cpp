@@ -1,6 +1,6 @@
 #include "random.hpp"
 
-unsigned R::seed = std::chrono::system_clock::now().time_since_epoch().count();
+unsigned R::seed = 345;
 std::default_random_engine R::generator (R::seed);
 
 double R::runif () { return distRealUniform(R::generator); }
