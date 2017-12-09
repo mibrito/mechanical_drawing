@@ -1,10 +1,10 @@
 #!/bin/bash
-data="lennabw_small.jpg"
+data="cameraman.png"
 folderIn="./pics/source"
 fileIn="${folderIn}/${data}"
 
-prefixOut="len"
-folderOut="./pics/results/lennabw_small2"
+prefixOut="cam"
+folderOut="./pics/results/testMutation"
 
 exe="./mechanical_drawing"
 
@@ -19,8 +19,8 @@ pop=8
 
 multType=3
 
-#for multType in 1 2 3 4;
-#do
+for multType in 1 2 3 4;
+do
     #for depth in 2 7;
     #do
         #for pMult in 0.2 0.5 0.8;
@@ -43,11 +43,11 @@ multType=3
                             # Will enter here if $DIRECTORY exists, even if it contains spaces
                         par="${exe} ${pop} ${elit} ${depth} ${pCross} ${pMult} ${multType} ${gen} ${thread}"
                         echo ${par}
-                        time ${par} "./pics/source/lennabw_small.jpg" ${folderOut}/${subFolder}/${prefixOut} > ${folderOut}/${subFolder}/iterations.txt
+                        ${par} ${fileIn} ${folderOut}/${subFolder}/${prefixOut} > ${folderOut}/${subFolder}/iterations.txt
 
                     fi
                #done
         #    done
         #done
     #done
-#done
+done
