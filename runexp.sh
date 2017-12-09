@@ -1,42 +1,57 @@
 #!/bin/bash
 data="lennabw_small.jpg"
-folderIn=".pics/source/"
+folderIn="./pics/source"
 fileIn="${folderIn}/${data}"
 
 prefixOut="len"
-folderOut=".pics/results/lennabw_small/"
+folderOut="./pics/results/lennabw_small2"
 
 exe="./mechanical_drawing"
 
 gen=200000
 elit=1
-thread=2
+thread=4
 
-for multType in 1 2 3 4;
-do
-    for depth in 2 7 11;
-    do
-        for pMult in 0.2 0.4 0.6 0.8;
-        do
-            for pCross in 0.8 0.6 0.4 0.2;
-            do
-                for pop in 2 4 8 16 32;
-                do
-                    if [$pop <= 8];
-                    then
-                        thread=$pop
-                    else
-                        thread=8
-                    fi
+depth=2
+pMult=0.8
+pCross=0.2
+pop=8
 
-                    subFolder="${prefixOut}_${exe}_${pop}_${elit}_${depth}_${pCross}_${pMult}_${multType}_${gen}_${thread}"
-                    mkdir ${subFolder}
+multType=3
 
-                    par="${exe} ${pop} ${elit} ${depth} ${pCross} ${pMult} ${multType} ${gen} ${thread}"
-                    echo ${par}
-                    time ${par} ${fileIn} ${folderOut}/${subfolder}/${prefix} > ${folderOut}/${subfolder}/iterations.txt
-                done
-            done
-        done
-    done
-done
+#for multType in 1 2 3 4;
+#do
+    #for depth in 2 7;
+    #do
+        #for pMult in 0.2 0.5 0.8;
+        #do
+        #    for pCross in 0.8 0.5 0.2;
+        #    do
+        #        for pop in 4 8 10;
+        #        do
+        #            if [ "$pop" -eq 10 ];
+        #            then
+        #                thread=5
+        #            else
+        #                thread=4
+        #            fi
+                    for nExec in {1..20};
+                    do
+
+                        subFolder="${prefixOut}_${pop}_${elit}_${depth}_${pCross}_${pMult}_${multType}_${gen}_${thread}_nExec_${nExec}"
+
+                        if [ ! -d "${folderOut}/${subFolder}" ]; then
+                            mkdir -p "${folderOut}/${subFolder}"
+
+                                # Will enter here if $DIRECTORY exists, even if it contains spaces
+                            par="${exe} ${pop} ${elit} ${depth} ${pCross} ${pMult} ${multType} ${gen} ${thread}"
+                            echo ${par}
+                            time ${par} "./pics/source/lennabw_small.jpg" ${folderOut}/${subFolder}/${prefixOut} > ${folderOut}/${subFolder}/iterations.txt
+
+                        fi
+                    done
+               #done
+        #    done
+        #done
+    #done
+#done

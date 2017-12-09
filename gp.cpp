@@ -127,24 +127,26 @@ void GP::run(int const& mutationType, int const& nEpoch, std::string &output) {
     calculateFitness();
     sortByFitness();
     if(e%1000 == 0){
-      std::cout << e << " " << population.front()->fitness - (originalImg.size[0]*population.front()->nodes.size());
-      std::cout << " " << population.front()->nodes.size();
-      std::cout << " " << population.back()->fitness - (originalImg.size[0]*population.back()->nodes.size());
-      std::cout << " " << population.back()->nodes.size() << std::endl;
+        printOutput(e);
     }
     if(e%5000 == 0){
-      std::string out = output+"_" +std::to_string(e) + "_" +std::to_string(population.front()->fitness - (originalImg.size[0]*population.front()->nodes.size()))+ ".jpg";
-      population.front()->saveImage(out);
-      out += ".prog";
-      population.front()->saveProgram(out);
+        saveImage(e);
     }
   }
-  std::cout << e << " " << population.front()->fitness - (originalImg.size[0]*population.front()->nodes.size());
-  std::cout << " " << population.front()->nodes.size();
-  std::cout << " " << population.back()->fitness - (originalImg.size[0]*population.back()->nodes.size());
-  std::cout << " " << population.back()->nodes.size() << std::endl;
 
-  std::string out = output+"_" +std::to_string(e) + "_" +std::to_string(population.front()->fitness - (originalImg.size[0]*population.front()->nodes.size()))+ ".jpg";
+  printOutput(e);
+  saveImage(e);
+}
+
+void GP::printOutput(int const &epoch){
+    std::cout << epoch << " " << population.front()->fitness;// - (originalImg.size[0]*population.front()->nodes.size());
+    std::cout << " " << population.front()->nodes.size();
+    std::cout << " " << population.back()->fitness;// - (originalImg.size[0]*population.back()->nodes.size());
+    std::cout << " " << population.back()->nodes.size() << std::endl;
+}
+
+void GP::saveImage(int const &epoch){
+  std::string out = output+"_" +std::to_string(e) + "_" +std::to_string(population.front()->fitness a /*- (originalImg.size[0]*population.front()->nodes.size())*/)+ ".jpg";
   population.front()->saveImage(out);
   out += ".prog";
   population.front()->saveProgram(out);
