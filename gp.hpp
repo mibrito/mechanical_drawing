@@ -43,8 +43,8 @@ public:
   void crossover();
   void epoch(int const& mutationType);
   void run(int const& mutationType, int const& epoch, std::string &output);
-  void printOutput(int const &epoch);
-  void saveImage(int const &epoch);
+  void printOutput(int const &epoch, int const& width);
+  void saveImage(int const &epoch, std::string &output, int const& width);
   int* sample(const int &m, const int &n);
   
   static void calculateFitnessFn(std::vector<Program*> *population, cv::Mat const& originalImg, int begin, int const& end);

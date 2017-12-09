@@ -127,26 +127,26 @@ void GP::run(int const& mutationType, int const& nEpoch, std::string &output) {
     calculateFitness();
     sortByFitness();
     if(e%1000 == 0){
-        printOutput(e);
+        printOutput(e, originalImg.size[0]);
     }
     if(e%5000 == 0){
-        saveImage(e);
+        saveImage(e, output, originalImg.size[0]);
     }
   }
 
-  printOutput(e);
-  saveImage(e);
+  printOutput(e, originalImg.size[0]);
+  saveImage(e, output, originalImg.size[0]);
 }
 
-void GP::printOutput(int const &epoch){
-    std::cout << epoch << " " << population.front()->fitness;// - (originalImg.size[0]*population.front()->nodes.size());
+void GP::printOutput(int const &epoch, int const& width){
+    std::cout << epoch << " " << population.front()->fitness - (width*population.front()->nodes.size());
     std::cout << " " << population.front()->nodes.size();
-    std::cout << " " << population.back()->fitness;// - (originalImg.size[0]*population.back()->nodes.size());
+    std::cout << " " << population.back()->fitness - (width*population.back()->nodes.size());
     std::cout << " " << population.back()->nodes.size() << std::endl;
 }
 
-void GP::saveImage(int const &epoch){
-  std::string out = output+"_" +std::to_string(e) + "_" +std::to_string(population.front()->fitness a /*- (originalImg.size[0]*population.front()->nodes.size())*/)+ ".jpg";
+void GP::saveImage(int const &epoch, std::string &output, int const& width){
+  std::string out = output+"_" +std::to_string(epoch) + "_" +std::to_string(population.front()->fitness - (width*population.front()->nodes.size()))+ ".jpg";
   population.front()->saveImage(out);
   out += ".prog";
   population.front()->saveProgram(out);

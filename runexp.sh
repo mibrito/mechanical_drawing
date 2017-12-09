@@ -35,21 +35,17 @@ multType=3
         #            else
         #                thread=4
         #            fi
-                    for nExec in {1..20};
-                    do
+                    subFolder="${prefixOut}_${pop}_${elit}_${depth}_${pCross}_${pMult}_${multType}_${gen}_${thread}"
 
-                        subFolder="${prefixOut}_${pop}_${elit}_${depth}_${pCross}_${pMult}_${multType}_${gen}_${thread}_nExec_${nExec}"
+                    if [ ! -d "${folderOut}/${subFolder}" ]; then
+                        mkdir -p "${folderOut}/${subFolder}"
 
-                        if [ ! -d "${folderOut}/${subFolder}" ]; then
-                            mkdir -p "${folderOut}/${subFolder}"
+                            # Will enter here if $DIRECTORY exists, even if it contains spaces
+                        par="${exe} ${pop} ${elit} ${depth} ${pCross} ${pMult} ${multType} ${gen} ${thread}"
+                        echo ${par}
+                        time ${par} "./pics/source/lennabw_small.jpg" ${folderOut}/${subFolder}/${prefixOut} > ${folderOut}/${subFolder}/iterations.txt
 
-                                # Will enter here if $DIRECTORY exists, even if it contains spaces
-                            par="${exe} ${pop} ${elit} ${depth} ${pCross} ${pMult} ${multType} ${gen} ${thread}"
-                            echo ${par}
-                            time ${par} "./pics/source/lennabw_small.jpg" ${folderOut}/${subFolder}/${prefixOut} > ${folderOut}/${subFolder}/iterations.txt
-
-                        fi
-                    done
+                    fi
                #done
         #    done
         #done
