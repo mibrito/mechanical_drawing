@@ -4,50 +4,31 @@ folderIn="./pics/source"
 fileIn="${folderIn}/${data}"
 
 prefixOut="cam"
-folderOut="./pics/results/testMutation"
+folderOut="./pics/results/testPMut"
 
 exe="./mechanical_drawing"
 
 gen=200000
 elit=1
-thread=4
+thread=8
 
 depth=2
-pMult=0.8
-pCross=0.2
+pMult=0.2
+pCross=0.4
 pop=8
 
 multType=3
 
-for multType in 1 2 3 4;
+for pMult in 0.4 0.6 0.8;
 do
-    #for depth in 2 7;
-    #do
-        #for pMult in 0.2 0.5 0.8;
-        #do
-        #    for pCross in 0.8 0.5 0.2;
-        #    do
-        #        for pop in 4 8 10;
-        #        do
-        #            if [ "$pop" -eq 10 ];
-        #            then
-        #                thread=5
-        #            else
-        #                thread=4
-        #            fi
-                    subFolder="${prefixOut}_${pop}_${elit}_${depth}_${pCross}_${pMult}_${multType}_${gen}_${thread}"
+    subFolder="${prefixOut}_${pop}_${elit}_${depth}_${pCross}_${pMult}_${multType}_${gen}_${thread}"
 
-                    if [ ! -d "${folderOut}/${subFolder}" ]; then
-                        mkdir -p "${folderOut}/${subFolder}"
+    if [ ! -d "${folderOut}/${subFolder}" ]; then
+        mkdir -p "${folderOut}/${subFolder}"
 
-                            # Will enter here if $DIRECTORY exists, even if it contains spaces
-                        par="${exe} ${pop} ${elit} ${depth} ${pCross} ${pMult} ${multType} ${gen} ${thread}"
-                        echo ${par}
-                        ${par} ${fileIn} ${folderOut}/${subFolder}/${prefixOut} > ${folderOut}/${subFolder}/iterations.txt
-
-                    fi
-               #done
-        #    done
-        #done
-    #done
+        # Will enter here if $DIRECTORY exists, even if it contains spaces
+        par="${exe} ${pop} ${elit} ${depth} ${pCross} ${pMult} ${multType} ${gen} ${thread}"
+        echo ${par}
+        ${par} ${fileIn} ${folderOut}/${subFolder}/${prefixOut} > ${folderOut}/${subFolder}/iterations.txt
+    fi
 done
